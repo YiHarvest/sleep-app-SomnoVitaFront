@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "睡眠带信息",
+  "usingComponents": {
+    "u-line": "/components/uview-ui/components/u-line/u-line",
+    "u--form": "/components/uview-ui/components/u--form/u--form",
+    "u-form-item": "/components/uview-ui/components/u-form-item/u-form-item",
+    "u--input": "/components/uview-ui/components/u--input/u--input",
+    "u-icon": "/components/uview-ui/components/u-icon/u-icon",
+    "u-modal": "/components/uview-ui/components/u-modal/u-modal"
+  }
+}

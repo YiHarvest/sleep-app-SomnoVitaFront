@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "睡眠监测",
+  "usingComponents": {
+    "u-icon": "/components/uview-ui/components/u-icon/u-icon",
+    "u-popup": "/components/uview-ui/components/u-popup/u-popup",
+    "echarts": "/pages/tabbar/tabbar-1/ecahrts/index"
+  }
+}

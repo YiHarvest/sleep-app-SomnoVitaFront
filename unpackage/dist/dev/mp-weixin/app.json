@@ -1,0 +1,67 @@
+{
+  "pages": [
+    "pages/tabbar/tabbar-1/tabbar-1",
+    "pages/tabbar/tabbar-2/tabbar-2",
+    "custom-tab-bar/index",
+    "pages/tabbar/tabbar-3/tabbar-3",
+    "pages/tabbar/tabbar-4/tabbar-4",
+    "pages/tabbar/tabbar-5/tabbar-5",
+    "pages/tabbar/tabbar-6/tabbar-6",
+    "pages/tabbar-3-detial/tabbar-3-release/tabbar-3-release",
+    "pages/tabbar-3-detial/tabbar-3-release/product",
+    "pages/tabbar-3-detial/tabbar-3-release/cbti",
+    "pages/tabbar-3-detial/tabbar-3-release/bindDevice",
+    "pages/tabbar-3-detial/tabbar-3-release/phone",
+    "pages/tabbar-3-detial/tabbar-3-release/user",
+    "pages/tabbar-3-detial/tabbar-3-video/tabbar-3-video",
+    "pages/tabbar-3-detial/tabbar-3-qa/tabbar-3-qa",
+    "pages/login/login"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "custom": true,
+    "borderStyle": "white",
+    "backgroundColor": "#fff",
+    "color": "#C4C4C4",
+    "selectedColor": "#6173E7",
+    "list": [
+      {
+        "pagePath": "pages/tabbar/tabbar-1/tabbar-1",
+        "iconPath": "static/img/tabbar/jiance.png",
+        "selectedIconPath": "static/img/tabbar/activejiance.png",
+        "text": "监测"
+      },
+      {
+        "pagePath": "pages/tabbar/tabbar-4/tabbar-4",
+        "iconPath": "static/img/tabbar/history.png",
+        "selectedIconPath": "static/img/tabbar/activehistory.png",
+        "text": "报告"
+      },
+      {
+        "pagePath": "pages/tabbar/tabbar-2/tabbar-2",
+        "iconPath": "static/img/tabbar/ai.png",
+        "selectedIconPath": "static/img/tabbar/activeai.png",
+        "text": "AI"
+      },
+      {
+        "pagePath": "pages/tabbar/tabbar-5/tabbar-5",
+        "iconPath": "static/img/tabbar/my.png",
+        "selectedIconPath": "static/img/tabbar/activemy.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "plugins": {
+    "WechatSI": {
+      "version": "0.3.6",
+      "provider": "wx069ba97219f66d99"
+    }
+  },
+  "usingComponents": {}
+}

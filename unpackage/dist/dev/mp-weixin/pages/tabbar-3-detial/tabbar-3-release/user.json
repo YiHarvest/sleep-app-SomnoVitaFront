@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "个人信息",
+  "usingComponents": {
+    "u-line": "/components/uview-ui/components/u-line/u-line",
+    "u--form": "/components/uview-ui/components/u--form/u--form",
+    "u-form-item": "/components/uview-ui/components/u-form-item/u-form-item",
+    "u--input": "/components/uview-ui/components/u--input/u--input",
+    "u-avatar": "/components/uview-ui/components/u-avatar/u-avatar",
+    "u-icon": "/components/uview-ui/components/u-icon/u-icon",
+    "u-button": "/components/uview-ui/components/u-button/u-button"
+  }
+}

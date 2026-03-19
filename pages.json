@@ -1,0 +1,135 @@
+{
+	"pages": [
+				//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+				{
+					"path": "pages/tabbar/tabbar-1/tabbar-1",
+					"style": {
+						"navigationBarTitleText": "睡眠监测"
+					}
+				},
+		{
+			"path": "pages/tabbar/tabbar-2/tabbar-2",
+			"style": {
+				"navigationBarTitleText": "AI对话"
+			}
+		},
+
+		{
+			"path": "custom-tab-bar/index",
+			"style": {
+				"navigationBarTitleText": "自定义TabBar"
+			}
+		},
+
+		{
+			"path": "pages/tabbar/tabbar-3/tabbar-3",
+			"style": {}
+		},
+		{
+			"path": "pages/tabbar/tabbar-4/tabbar-4",
+			"style": {
+				"navigationBarTitleText": "报告"
+			}
+		},
+		{
+			"path": "pages/tabbar/tabbar-5/tabbar-5",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/tabbar/tabbar-6/tabbar-6"
+		},
+		{
+			"path": "pages/tabbar-3-detial/tabbar-3-release/tabbar-3-release",
+			"style": {}
+		},
+		{
+			"path": "pages/tabbar-3-detial/tabbar-3-release/product",
+			"style": {}
+		},
+		{
+			"path": "pages/tabbar-3-detial/tabbar-3-release/cbti",
+			"style": {}
+		},
+		{
+			"path": "pages/tabbar-3-detial/tabbar-3-release/bindDevice",
+			"style": {
+				"navigationBarTitleText": "睡眠带信息"
+			}
+		},
+		{
+			"path": "pages/tabbar-3-detial/tabbar-3-release/phone",
+			"style": {
+		 		"navigationBarTitleText": "联系方式"
+			 }
+		},
+		{
+			"path": "pages/tabbar-3-detial/tabbar-3-release/user",
+	    	"style": {
+				"navigationBarTitleText": "个人信息"
+			}
+		},
+		{
+			"path": "pages/tabbar-3-detial/tabbar-3-video/tabbar-3-video",
+			"style": {}
+		},
+		{
+			"path": "pages/tabbar-3-detial/tabbar-3-qa/tabbar-3-qa",
+			"style": {
+				"navigationBarTitleText": "参数详情"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		}
+	],
+	"easycom": {
+		"^u-(.*)": "@/components/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+	,
+	"tabBar": {
+		"custom": true, // 开启自定义 Tab 栏
+		"borderStyle": "white",
+		"backgroundColor": "#fff",
+		"color": "#C4C4C4",
+		"selectedColor": "#6173E7",
+		"list": [
+			{
+				"pagePath": "pages/tabbar/tabbar-1/tabbar-1",
+				"iconPath": "static/img/tabbar/jiance.png",
+				"selectedIconPath": "static/img/tabbar/activejiance.png",
+				"text": "监测"
+			},
+				
+			{
+				"pagePath": "pages/tabbar/tabbar-4/tabbar-4",
+				"iconPath": "static/img/tabbar/history.png",
+				"selectedIconPath": "static/img/tabbar/activehistory.png",
+				"text": "报告"
+			},
+			{
+				"pagePath": "pages/tabbar/tabbar-2/tabbar-2",
+				"iconPath": "static/img/tabbar/ai.png",
+				"selectedIconPath": "static/img/tabbar/activeai.png",
+				"text": "AI"
+			},
+		
+			{
+				"pagePath": "pages/tabbar/tabbar-5/tabbar-5",
+				"iconPath": "static/img/tabbar/my.png",
+				"selectedIconPath": "static/img/tabbar/activemy.png",
+				"text": "我的"
+			}
+		]
+	}
+}

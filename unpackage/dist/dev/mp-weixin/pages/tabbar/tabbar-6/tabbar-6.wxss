@@ -1,0 +1,68 @@
+
+.content.data-v-a8c853d2 {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.loginHead.data-v-a8c853d2 {
+  width: 100%;
+  height: 373rpx;
+  background-image: url('https://javaimg-1316092519.cos.ap-nanjing.myqcloud.com/f9498ce14c7bf7aeadad3108ce067af9.png');
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 2.3em;
+  font-weight: 700;
+}
+.signIn.data-v-a8c853d2 {
+  width: 100%;
+  height: 140rpx;
+  display: flex;
+  align-items: center;
+  padding-left: 80rpx;
+  font-size: 2.3em;
+  font-weight: 700;
+}
+.in.data-v-a8c853d2 {
+  color: #465ffa;
+}
+.sign.data-v-a8c853d2 {
+  color: #3c3c3c;
+}
+.zhmm.data-v-a8c853d2 {
+  width: 100%;
+  height: 460rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* background: red; */
+}
+.u-input--radius.data-v-a8c853d2,
+.u-input--square.data-v-a8c853d2 {
+  background: #f2f2f2;
+  width: 80%;
+  height: 400rpx;
+  margin-top: 30rpx;
+}
+.u-button--primary.data-v-a8c853d2 {
+  background: #465ffa;
+}
+.bottomI.data-v-a8c853d2 {
+  width: 84%;
+  margin-left:7%;
+  height: 120rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top:20rpx;
+}
+.data-v-a8c853d2 .u-button__text {
+  font-size: 36rpx !important;
+  font-weight: 700;
+}
+
