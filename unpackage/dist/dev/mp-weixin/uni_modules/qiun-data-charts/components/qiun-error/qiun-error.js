@@ -2,7 +2,7 @@
 
 /***/ 571:
 /*!*****************************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/uni_modules/qiun-data-charts/components/qiun-error/qiun-error.vue ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/uni_modules/qiun-data-charts/components/qiun-error/qiun-error.vue ***!
   \*****************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -43,7 +43,7 @@ component.options.__file = "uni_modules/qiun-data-charts/components/qiun-error/q
 
 /***/ 572:
 /*!************************************************************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/uni_modules/qiun-data-charts/components/qiun-error/qiun-error.vue?vue&type=template&id=0507f1f4& ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/uni_modules/qiun-data-charts/components/qiun-error/qiun-error.vue?vue&type=template&id=0507f1f4& ***!
   \************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -65,7 +65,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ 573:
 /*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/uni_modules/qiun-data-charts/components/qiun-error/qiun-error.vue?vue&type=template&id=0507f1f4& ***!
+  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/uni_modules/qiun-data-charts/components/qiun-error/qiun-error.vue?vue&type=template&id=0507f1f4& ***!
   \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -92,7 +92,7 @@ render._withStripped = true
 
 /***/ 574:
 /*!******************************************************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/uni_modules/qiun-data-charts/components/qiun-error/qiun-error.vue?vue&type=script&lang=js& ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/uni_modules/qiun-data-charts/components/qiun-error/qiun-error.vue?vue&type=script&lang=js& ***!
   \******************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -108,7 +108,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ 575:
 /*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--13-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/uni_modules/qiun-data-charts/components/qiun-error/qiun-error.vue?vue&type=script&lang=js& ***!
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--13-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/uni_modules/qiun-data-charts/components/qiun-error/qiun-error.vue?vue&type=script&lang=js& ***!
   \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -145,7 +145,7 @@ exports.default = _default;
 
 /***/ 576:
 /*!**************************************************************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/uni_modules/qiun-data-charts/components/qiun-error/qiun-error.vue?vue&type=style&index=0&lang=css& ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/uni_modules/qiun-data-charts/components/qiun-error/qiun-error.vue?vue&type=style&index=0&lang=css& ***!
   \**************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -161,7 +161,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ 577:
 /*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-1-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-2!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/uni_modules/qiun-data-charts/components/qiun-error/qiun-error.vue?vue&type=style&index=0&lang=css& ***!
+  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-1-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-2!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/uni_modules/qiun-data-charts/components/qiun-error/qiun-error.vue?vue&type=style&index=0&lang=css& ***!
   \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {

@@ -1,0 +1,84 @@
+/* 自定义聊天界面样式 */
+
+/* 聊天窗口背景颜色 */
+.content {
+  .msg-list {
+    background: #0f253b;
+    padding-bottom: 80upx; /* 添加底部内边距，确保内容不被工具栏遮挡 */
+  }
+}
+
+/* 右侧气泡背景色和字体颜色 */
+.my {
+  .left {
+    .bubble {
+      background-color: #28588f !important;
+      color: #fff !important;
+    }
+  }
+}
+
+/* 输入框样式 */
+.input-box {
+  .textbox {
+    .text-mode {
+      border: 1px solid #1a54da !important;
+    }
+  }
+}
+
+/* 发送按钮样式 */
+.send {
+  .btn {
+    background: #28588f !important;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 28upx;
+    &::after {
+      content: '发送';
+    }
+  }
+}
+
+/* 工具栏样式 */
+.tools-bar {
+  width: 100%;
+  position: fixed;
+  z-index: 4999;
+  background-color: #0f253b;
+  padding: 10upx 0;
+  box-shadow: 0 -2upx 10upx rgba(0, 0, 0, 0.1);
+  
+  .tools-scroll {
+    width: 100%;
+    white-space: nowrap;
+  }
+  
+  .tools-container {
+    display: inline-flex;
+    padding: 0 20upx;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .tool-btn {
+    display: inline-block;
+    padding: 12upx 30upx;
+    margin: 0 10upx;
+    background-color: #0f253b;
+    color: #fff;
+    border-radius: 30upx;
+    font-size: 28upx;
+    border: 1px solid #1a54da;
+    transition: all 0.3s;
+    
+    &.active {
+      background-color: #ffffff;
+      border: 1px solid transparent;
+      color: #000;
+    }
+  }
+}

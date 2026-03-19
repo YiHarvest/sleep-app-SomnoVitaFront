@@ -4,6 +4,9 @@
       type="column"
       :opts="opts"
       :chartData="chartData"
+      :ontouch="true"
+      background="rgba(24,31,42,0.98)"
+      style="width:90%;margin:0 auto;background:transparent;"
     />
   </view>
 </template>
@@ -16,37 +19,41 @@ export default {
       //您可以通过修改 config-ucharts.js 文件中下标为 ['column'] 的节点来配置全局默认参数，如都是默认参数，此处可以不传 opts 。实际应用过程中 opts 只需传入与全局默认参数中不一致的【某一个属性】即可实现同类型的图表显示不同的样式，达到页面简洁的需求。
       opts: {
         color: [
-          "#1890FF",
-          "#91CB74",
-          "#FAC858",
-          "#EE6666",
-          "#73C0DE",
-          "#3CA272",
-          "#FC8452",
-          "#9A60B4",
-          "#ea7ccc",
+          "#3a6aff",
+          "#00ffe7"
         ],
         enableScroll:true,
         padding: [15, 0, 0, 0],
-        dataLabel: false,
+        dataLabel: true,
         dataPointShape: false,
         legend: { position: "top", float: "left", show: false },
         xAxis: {
           disableGrid: true,
           itemCount: 7,
           scrollShow: true,
+          rotateLabel: true,
+          rotate: 45,
+          fontColor: "#b6e0ff",
+          fontSize: 12,
+          marginTop: 4
         },
         yAxis: {
           showTitle: true,
           data: [
             {
-              axisLine: false,
-              titleFontColor: "#676767",
-              axisLineColor: "#676767",
+              axisLine: true,
+              titleFontColor: "#b6e0ff",
+              axisLineColor: "#3a6aff44",
               title: "(次)",
               titleOffsetY: -5,
               titleOffsetX: 0,
-              titleFontSize: 16,
+              titleFontSize: 14,
+              gridColor: "#3a6aff22",
+              gridType: "dash",
+              dashLength: 4,
+              gridEval: 4,
+              fontColor: "#b6e0ff",
+              fontSize: 12
             },
           ],
         },
@@ -137,10 +144,21 @@ export default {
 </script>
 
 <style scoped>
-  /* 请根据实际需求修改父元素尺寸，组件自动识别宽高 */
   .charts-box {
     width: 100%;
-    height: 240px;
-    margin-top:10px;
+  min-height: 320rpx;
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-x: auto;
+}
+.charts-box::-webkit-scrollbar {
+  display: none;
   }
 </style>

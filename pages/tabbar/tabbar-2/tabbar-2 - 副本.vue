@@ -559,9 +559,9 @@ export default {
         chatType: "1",
         sourceId:Viewid||''
       };
-      //调用语音识别接口
+      // 调用新的AI对话接口
       uni.request({
-        url: "https://hygieneproduct.club:444/sleepapp/web/chat/sendQuestion", //仅为示例，并非真实接口地址。
+        url: "http://cbti.e3.luyouxia.net:13985/chat", // 新的AI对话接口地址
         data: postData,
         header: {
           "content-type": "application/json",
@@ -585,7 +585,13 @@ export default {
           this.screenMsg(msg);
         },
         fail: (res) => {
-          console.log("上传音频失败" + JSON.stringify(res));
+          console.log("AI对话请求失败" + JSON.stringify(res));
+          this.msgFlag = true; // 请求失败时也需要重置标志，否则用户将无法发送新消息
+          uni.showToast({
+            title: "AI对话请求失败，请稍后再试",
+            icon: 'none',
+            duration: 2000
+          });
         },
       });
     },

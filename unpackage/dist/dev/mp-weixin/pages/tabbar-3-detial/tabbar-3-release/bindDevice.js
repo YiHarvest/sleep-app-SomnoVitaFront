@@ -2,7 +2,7 @@
 
 /***/ 243:
 /*!**************************************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/main.js?{"page":"pages%2Ftabbar-3-detial%2Ftabbar-3-release%2FbindDevice"} ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/main.js?{"page":"pages%2Ftabbar-3-detial%2Ftabbar-3-release%2FbindDevice"} ***!
   \**************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -23,7 +23,7 @@ createPage(_bindDevice.default);
 
 /***/ 244:
 /*!*****************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/pages/tabbar-3-detial/tabbar-3-release/bindDevice.vue ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/pages/tabbar-3-detial/tabbar-3-release/bindDevice.vue ***!
   \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -64,7 +64,7 @@ component.options.__file = "pages/tabbar-3-detial/tabbar-3-release/bindDevice.vu
 
 /***/ 245:
 /*!************************************************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/pages/tabbar-3-detial/tabbar-3-release/bindDevice.vue?vue&type=template&id=38ae3eb6& ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/pages/tabbar-3-detial/tabbar-3-release/bindDevice.vue?vue&type=template&id=38ae3eb6& ***!
   \************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -86,7 +86,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ 246:
 /*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/pages/tabbar-3-detial/tabbar-3-release/bindDevice.vue?vue&type=template&id=38ae3eb6& ***!
+  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/pages/tabbar-3-detial/tabbar-3-release/bindDevice.vue?vue&type=template&id=38ae3eb6& ***!
   \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -113,7 +113,7 @@ try {
       return Promise.all(/*! import() | components/uview-ui/components/u--input/u--input */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/uview-ui/components/u--input/u--input")]).then(__webpack_require__.bind(null, /*! @/components/uview-ui/components/u--input/u--input.vue */ 331))
     },
     uIcon: function () {
-      return Promise.all(/*! import() | components/uview-ui/components/u-icon/u-icon */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/uview-ui/components/u-icon/u-icon")]).then(__webpack_require__.bind(null, /*! @/components/uview-ui/components/u-icon/u-icon.vue */ 307))
+      return Promise.all(/*! import() | components/uview-ui/components/u-icon/u-icon */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/uview-ui/components/u-icon/u-icon")]).then(__webpack_require__.bind(null, /*! @/components/uview-ui/components/u-icon/u-icon.vue */ 315))
     },
     uModal: function () {
       return Promise.all(/*! import() | components/uview-ui/components/u-modal/u-modal */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/uview-ui/components/u-modal/u-modal")]).then(__webpack_require__.bind(null, /*! @/components/uview-ui/components/u-modal/u-modal.vue */ 410))
@@ -151,7 +151,7 @@ render._withStripped = true
 
 /***/ 247:
 /*!******************************************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/pages/tabbar-3-detial/tabbar-3-release/bindDevice.vue?vue&type=script&lang=js& ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/pages/tabbar-3-detial/tabbar-3-release/bindDevice.vue?vue&type=script&lang=js& ***!
   \******************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -167,7 +167,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ 248:
 /*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--13-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/pages/tabbar-3-detial/tabbar-3-release/bindDevice.vue?vue&type=script&lang=js& ***!
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--13-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/pages/tabbar-3-detial/tabbar-3-release/bindDevice.vue?vue&type=script&lang=js& ***!
   \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -268,7 +268,7 @@ var _default = {
     confirmhj: function confirmhj() {
       var _this = this;
       uni.request({
-        url: "https://hygieneproduct.club:444/sleepapp/user/updateDeviceName",
+        url: "https://isleepagent.com:444/sleepapp/user/updateDeviceName",
         //仅为示例，并非真实接口地址。
         data: {
           "deviceBindId": this.copy.id,
@@ -300,7 +300,7 @@ var _default = {
     getDevice: function getDevice() {
       var _this2 = this;
       uni.request({
-        url: "https://hygieneproduct.club:444/sleepapp/user/getUserDeviceList",
+        url: "https://isleepagent.com:444/sleepapp/user/getUserDeviceList",
         //仅为示例，并非真实接口地址。
         data: {
           'deviceType': 1
@@ -325,7 +325,7 @@ exports.default = _default;
 
 /***/ 249:
 /*!**************************************************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/pages/tabbar-3-detial/tabbar-3-release/bindDevice.vue?vue&type=style&index=0&lang=css& ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/pages/tabbar-3-detial/tabbar-3-release/bindDevice.vue?vue&type=style&index=0&lang=css& ***!
   \**************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -341,7 +341,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ 250:
 /*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-1-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-2!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/pages/tabbar-3-detial/tabbar-3-release/bindDevice.vue?vue&type=style&index=0&lang=css& ***!
+  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-1-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-2!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/pages/tabbar-3-detial/tabbar-3-release/bindDevice.vue?vue&type=style&index=0&lang=css& ***!
   \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {

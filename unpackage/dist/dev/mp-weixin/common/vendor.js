@@ -9515,7 +9515,7 @@ internalMixin(Vue);
 /***/ }),
 /* 26 */
 /*!**********************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/pages.json ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/pages.json ***!
   \**********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -9661,7 +9661,7 @@ function normalizeComponent (
 /***/ }),
 /* 33 */
 /*!******************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/index.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/index.js ***!
   \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -9750,7 +9750,7 @@ exports.default = _default;
 /***/ }),
 /* 34 */
 /*!*****************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/mixin/mixin.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/mixin/mixin.js ***!
   \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -9918,7 +9918,7 @@ exports.default = _default;
 /***/ }),
 /* 35 */
 /*!*******************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/mixin/mpMixin.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/mixin/mpMixin.js ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -9941,7 +9941,7 @@ exports.default = _default;
 /***/ }),
 /* 36 */
 /*!************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/luch-request/index.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/luch-request/index.js ***!
   \************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -9961,7 +9961,7 @@ exports.default = _default;
 /***/ }),
 /* 37 */
 /*!*******************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/luch-request/core/Request.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/luch-request/core/Request.js ***!
   \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -10167,7 +10167,7 @@ exports.default = Request;
 /***/ }),
 /* 38 */
 /*!***************************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/luch-request/core/dispatchRequest.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/luch-request/core/dispatchRequest.js ***!
   \***************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -10189,7 +10189,7 @@ exports.default = _default;
 /***/ }),
 /* 39 */
 /*!*********************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/luch-request/adapters/index.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/luch-request/adapters/index.js ***!
   \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -10270,7 +10270,7 @@ exports.default = _default;
 /***/ }),
 /* 40 */
 /*!***********************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/luch-request/helpers/buildURL.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/luch-request/helpers/buildURL.js ***!
   \***********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -10340,7 +10340,7 @@ function buildURL(url, params) {
 /***/ }),
 /* 41 */
 /*!************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/luch-request/utils.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/luch-request/utils.js ***!
   \************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -10493,7 +10493,7 @@ function isUndefined(val) {
 /***/ }),
 /* 42 */
 /*!*************************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/luch-request/core/buildFullPath.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/luch-request/core/buildFullPath.js ***!
   \*************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -10527,7 +10527,7 @@ function buildFullPath(baseURL, requestedURL) {
 /***/ }),
 /* 43 */
 /*!****************************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/luch-request/helpers/isAbsoluteURL.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/luch-request/helpers/isAbsoluteURL.js ***!
   \****************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -10555,7 +10555,7 @@ function isAbsoluteURL(url) {
 /***/ }),
 /* 44 */
 /*!**************************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/luch-request/helpers/combineURLs.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/luch-request/helpers/combineURLs.js ***!
   \**************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -10581,7 +10581,7 @@ function combineURLs(baseURL, relativeURL) {
 /***/ }),
 /* 45 */
 /*!******************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/luch-request/core/settle.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/luch-request/core/settle.js ***!
   \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -10613,7 +10613,7 @@ function settle(resolve, reject, response) {
 /***/ }),
 /* 46 */
 /*!******************************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/luch-request/core/InterceptorManager.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/luch-request/core/InterceptorManager.js ***!
   \******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -10677,7 +10677,7 @@ exports.default = _default;
 /***/ }),
 /* 47 */
 /*!***********************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/luch-request/core/mergeConfig.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/luch-request/core/mergeConfig.js ***!
   \***********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -10753,7 +10753,7 @@ exports.default = _default;
 /***/ }),
 /* 48 */
 /*!********************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/luch-request/core/defaults.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/luch-request/core/defaults.js ***!
   \********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -10785,7 +10785,7 @@ exports.default = _default;
 /***/ }),
 /* 49 */
 /*!******************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/luch-request/utils/clone.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/luch-request/utils/clone.js ***!
   \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -13109,7 +13109,7 @@ module.exports = Array.isArray || function (arr) {
 /***/ }),
 /* 54 */
 /*!****************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/util/route.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/util/route.js ***!
   \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -13671,7 +13671,7 @@ module.exports = _asyncToGenerator, module.exports.__esModule = true, module.exp
 /***/ }),
 /* 58 */
 /*!****************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/function/colorGradient.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/function/colorGradient.js ***!
   \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -13826,7 +13826,7 @@ exports.default = _default;
 /***/ }),
 /* 59 */
 /*!*******************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/function/test.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/function/test.js ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -14131,7 +14131,7 @@ exports.default = _default;
 /***/ }),
 /* 60 */
 /*!***********************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/function/debounce.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/function/debounce.js ***!
   \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -14178,7 +14178,7 @@ exports.default = _default;
 /***/ }),
 /* 61 */
 /*!***********************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/function/throttle.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/function/throttle.js ***!
   \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -14227,7 +14227,7 @@ exports.default = _default;
 /***/ }),
 /* 62 */
 /*!********************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/function/index.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/function/index.js ***!
   \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -15028,7 +15028,7 @@ exports.default = _default;
 /***/ }),
 /* 63 */
 /*!********************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/function/digit.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/function/digit.js ***!
   \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -15247,7 +15247,7 @@ module.exports = _toArray, module.exports.__esModule = true, module.exports["def
 /***/ }),
 /* 65 */
 /*!*******************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/config.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/config.js ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -15291,7 +15291,7 @@ exports.default = _default;
 /***/ }),
 /* 66 */
 /*!******************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props.js ***!
   \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -15403,7 +15403,7 @@ exports.default = _default;
 /***/ }),
 /* 67 */
 /*!******************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/actionSheet.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/actionSheet.js ***!
   \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -15447,7 +15447,7 @@ exports.default = _default;
 /***/ }),
 /* 68 */
 /*!************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/album.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/album.js ***!
   \************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -15491,7 +15491,7 @@ exports.default = _default;
 /***/ }),
 /* 69 */
 /*!************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/alert.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/alert.js ***!
   \************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -15530,7 +15530,7 @@ exports.default = _default;
 /***/ }),
 /* 70 */
 /*!*************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/avatar.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/avatar.js ***!
   \*************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -15575,7 +15575,7 @@ exports.default = _default;
 /***/ }),
 /* 71 */
 /*!******************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/avatarGroup.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/avatarGroup.js ***!
   \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -15617,7 +15617,7 @@ exports.default = _default;
 /***/ }),
 /* 72 */
 /*!**************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/backtop.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/backtop.js ***!
   \**************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -15663,7 +15663,7 @@ exports.default = _default;
 /***/ }),
 /* 73 */
 /*!************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/badge.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/badge.js ***!
   \************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -15709,7 +15709,7 @@ exports.default = _default;
 /***/ }),
 /* 74 */
 /*!*************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/button.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/button.js ***!
   \*************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -15768,7 +15768,7 @@ exports.default = _default;
 /***/ }),
 /* 75 */
 /*!***************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/calendar.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/calendar.js ***!
   \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -15831,7 +15831,7 @@ exports.default = _default;
 /***/ }),
 /* 76 */
 /*!******************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/carKeyboard.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/carKeyboard.js ***!
   \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -15863,7 +15863,7 @@ exports.default = _default;
 /***/ }),
 /* 77 */
 /*!***********************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/cell.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/cell.js ***!
   \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -15915,7 +15915,7 @@ exports.default = _default;
 /***/ }),
 /* 78 */
 /*!****************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/cellGroup.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/cellGroup.js ***!
   \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -15949,7 +15949,7 @@ exports.default = _default;
 /***/ }),
 /* 79 */
 /*!***************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/checkbox.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/checkbox.js ***!
   \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -15993,7 +15993,7 @@ exports.default = _default;
 /***/ }),
 /* 80 */
 /*!********************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/checkboxGroup.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/checkboxGroup.js ***!
   \********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -16041,7 +16041,7 @@ exports.default = _default;
 /***/ }),
 /* 81 */
 /*!*********************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/circleProgress.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/circleProgress.js ***!
   \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -16073,7 +16073,7 @@ exports.default = _default;
 /***/ }),
 /* 82 */
 /*!***********************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/code.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/code.js ***!
   \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -16110,7 +16110,7 @@ exports.default = _default;
 /***/ }),
 /* 83 */
 /*!****************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/codeInput.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/codeInput.js ***!
   \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -16156,7 +16156,7 @@ exports.default = _default;
 /***/ }),
 /* 84 */
 /*!**********************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/col.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/col.js ***!
   \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -16192,7 +16192,7 @@ exports.default = _default;
 /***/ }),
 /* 85 */
 /*!***************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/collapse.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/collapse.js ***!
   \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -16226,7 +16226,7 @@ exports.default = _default;
 /***/ }),
 /* 86 */
 /*!*******************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/collapseItem.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/collapseItem.js ***!
   \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -16268,7 +16268,7 @@ exports.default = _default;
 /***/ }),
 /* 87 */
 /*!*******************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/columnNotice.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/columnNotice.js ***!
   \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -16309,7 +16309,7 @@ exports.default = _default;
 /***/ }),
 /* 88 */
 /*!****************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/countDown.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/countDown.js ***!
   \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -16344,7 +16344,7 @@ exports.default = _default;
 /***/ }),
 /* 89 */
 /*!**************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/countTo.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/countTo.js ***!
   \**************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -16386,7 +16386,7 @@ exports.default = _default;
 /***/ }),
 /* 90 */
 /*!*********************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/datetimePicker.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/datetimePicker.js ***!
   \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -16442,7 +16442,7 @@ exports.default = _default;
 /***/ }),
 /* 91 */
 /*!**************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/divider.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/divider.js ***!
   \**************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -16481,7 +16481,7 @@ exports.default = _default;
 /***/ }),
 /* 92 */
 /*!************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/empty.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/empty.js ***!
   \************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -16523,7 +16523,7 @@ exports.default = _default;
 /***/ }),
 /* 93 */
 /*!***********************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/form.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/form.js ***!
   \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -16568,7 +16568,7 @@ exports.default = _default;
 /***/ }),
 /* 94 */
 /*!***************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/formItem.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/formItem.js ***!
   \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -16608,7 +16608,7 @@ exports.default = _default;
 /***/ }),
 /* 95 */
 /*!**********************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/gap.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/gap.js ***!
   \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -16644,7 +16644,7 @@ exports.default = _default;
 /***/ }),
 /* 96 */
 /*!***********************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/grid.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/grid.js ***!
   \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -16678,7 +16678,7 @@ exports.default = _default;
 /***/ }),
 /* 97 */
 /*!***************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/gridItem.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/gridItem.js ***!
   \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -16711,7 +16711,7 @@ exports.default = _default;
 /***/ }),
 /* 98 */
 /*!***********************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/icon.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/icon.js ***!
   \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -16763,7 +16763,7 @@ exports.default = _default;
 /***/ }),
 /* 99 */
 /*!************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/image.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/image.js ***!
   \************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -16810,7 +16810,7 @@ exports.default = _default;
 /***/ }),
 /* 100 */
 /*!******************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/indexAnchor.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/indexAnchor.js ***!
   \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -16846,7 +16846,7 @@ exports.default = _default;
 /***/ }),
 /* 101 */
 /*!****************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/indexList.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/indexList.js ***!
   \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -16884,7 +16884,7 @@ exports.default = _default;
 /***/ }),
 /* 102 */
 /*!************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/input.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/input.js ***!
   \************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -16949,7 +16949,7 @@ exports.default = _default;
 /***/ }),
 /* 103 */
 /*!***************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/keyboard.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/keyboard.js ***!
   \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -16996,7 +16996,7 @@ exports.default = _default;
 /***/ }),
 /* 104 */
 /*!***********************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/line.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/line.js ***!
   \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -17033,7 +17033,7 @@ exports.default = _default;
 /***/ }),
 /* 105 */
 /*!*******************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/lineProgress.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/lineProgress.js ***!
   \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -17069,7 +17069,7 @@ exports.default = _default;
 /***/ }),
 /* 106 */
 /*!***********************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/link.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/link.js ***!
   \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -17111,7 +17111,7 @@ exports.default = _default;
 /***/ }),
 /* 107 */
 /*!***********************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/list.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/list.js ***!
   \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -17156,7 +17156,7 @@ exports.default = _default;
 /***/ }),
 /* 108 */
 /*!***************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/listItem.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/listItem.js ***!
   \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -17188,7 +17188,7 @@ exports.default = _default;
 /***/ }),
 /* 109 */
 /*!******************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/loadingIcon.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/loadingIcon.js ***!
   \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -17234,7 +17234,7 @@ exports.default = _default;
 /***/ }),
 /* 110 */
 /*!******************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/loadingPage.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/loadingPage.js ***!
   \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -17274,7 +17274,7 @@ exports.default = _default;
 /***/ }),
 /* 111 */
 /*!***************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/loadmore.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/loadmore.js ***!
   \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -17323,7 +17323,7 @@ exports.default = _default;
 /***/ }),
 /* 112 */
 /*!************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/modal.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/modal.js ***!
   \************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -17371,7 +17371,7 @@ exports.default = _default;
 /***/ }),
 /* 113 */
 /*!*************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/navbar.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/navbar.js ***!
   \*************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -17420,7 +17420,7 @@ exports.default = _default;
 /***/ }),
 /* 114 */
 /*!******************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/color.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/color.js ***!
   \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -17453,7 +17453,7 @@ exports.default = _default;
 /***/ }),
 /* 115 */
 /*!****************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/noNetwork.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/noNetwork.js ***!
   \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -17487,7 +17487,7 @@ exports.default = _default;
 /***/ }),
 /* 116 */
 /*!****************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/noticeBar.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/noticeBar.js ***!
   \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -17533,7 +17533,7 @@ exports.default = _default;
 /***/ }),
 /* 117 */
 /*!*************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/notify.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/notify.js ***!
   \*************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -17572,7 +17572,7 @@ exports.default = _default;
 /***/ }),
 /* 118 */
 /*!****************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/numberBox.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/numberBox.js ***!
   \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -17624,7 +17624,7 @@ exports.default = _default;
 /***/ }),
 /* 119 */
 /*!*********************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/numberKeyboard.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/numberKeyboard.js ***!
   \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -17658,7 +17658,7 @@ exports.default = _default;
 /***/ }),
 /* 120 */
 /*!**************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/overlay.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/overlay.js ***!
   \**************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -17693,7 +17693,7 @@ exports.default = _default;
 /***/ }),
 /* 121 */
 /*!************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/parse.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/parse.js ***!
   \************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -17732,7 +17732,7 @@ exports.default = _default;
 /***/ }),
 /* 122 */
 /*!*************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/picker.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/picker.js ***!
   \*************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -17782,7 +17782,7 @@ exports.default = _default;
 /***/ }),
 /* 123 */
 /*!************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/popup.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/popup.js ***!
   \************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -17828,7 +17828,7 @@ exports.default = _default;
 /***/ }),
 /* 124 */
 /*!************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/radio.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/radio.js ***!
   \************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -17872,7 +17872,7 @@ exports.default = _default;
 /***/ }),
 /* 125 */
 /*!*****************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/radioGroup.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/radioGroup.js ***!
   \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -17919,7 +17919,7 @@ exports.default = _default;
 /***/ }),
 /* 126 */
 /*!***********************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/rate.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/rate.js ***!
   \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -17962,7 +17962,7 @@ exports.default = _default;
 /***/ }),
 /* 127 */
 /*!***************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/readMore.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/readMore.js ***!
   \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -18001,7 +18001,7 @@ exports.default = _default;
 /***/ }),
 /* 128 */
 /*!**********************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/row.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/row.js ***!
   \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -18035,7 +18035,7 @@ exports.default = _default;
 /***/ }),
 /* 129 */
 /*!****************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/rowNotice.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/rowNotice.js ***!
   \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -18073,7 +18073,7 @@ exports.default = _default;
 /***/ }),
 /* 130 */
 /*!*****************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/scrollList.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/scrollList.js ***!
   \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -18110,7 +18110,7 @@ exports.default = _default;
 /***/ }),
 /* 131 */
 /*!*************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/search.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/search.js ***!
   \*************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -18168,7 +18168,7 @@ exports.default = _default;
 /***/ }),
 /* 132 */
 /*!**************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/section.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/section.js ***!
   \**************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -18209,7 +18209,7 @@ exports.default = _default;
 /***/ }),
 /* 133 */
 /*!***************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/skeleton.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/skeleton.js ***!
   \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -18251,7 +18251,7 @@ exports.default = _default;
 /***/ }),
 /* 134 */
 /*!*************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/slider.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/slider.js ***!
   \*************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -18293,7 +18293,7 @@ exports.default = _default;
 /***/ }),
 /* 135 */
 /*!****************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/statusBar.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/statusBar.js ***!
   \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -18325,7 +18325,7 @@ exports.default = _default;
 /***/ }),
 /* 136 */
 /*!************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/steps.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/steps.js ***!
   \************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -18363,7 +18363,7 @@ exports.default = _default;
 /***/ }),
 /* 137 */
 /*!****************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/stepsItem.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/stepsItem.js ***!
   \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -18398,7 +18398,7 @@ exports.default = _default;
 /***/ }),
 /* 138 */
 /*!*************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/sticky.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/sticky.js ***!
   \*************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -18435,7 +18435,7 @@ exports.default = _default;
 /***/ }),
 /* 139 */
 /*!*****************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/subsection.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/subsection.js ***!
   \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -18475,7 +18475,7 @@ exports.default = _default;
 /***/ }),
 /* 140 */
 /*!******************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/swipeAction.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/swipeAction.js ***!
   \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -18507,7 +18507,7 @@ exports.default = _default;
 /***/ }),
 /* 141 */
 /*!**********************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/swipeActionItem.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/swipeActionItem.js ***!
   \**********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -18545,7 +18545,7 @@ exports.default = _default;
 /***/ }),
 /* 142 */
 /*!*************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/swiper.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/swiper.js ***!
   \*************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -18602,7 +18602,7 @@ exports.default = _default;
 /***/ }),
 /* 143 */
 /*!***********************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/swipterIndicator.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/swipterIndicator.js ***!
   \***********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -18638,7 +18638,7 @@ exports.default = _default;
 /***/ }),
 /* 144 */
 /*!*************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/switch.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/switch.js ***!
   \*************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -18679,7 +18679,7 @@ exports.default = _default;
 /***/ }),
 /* 145 */
 /*!*************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/tabbar.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/tabbar.js ***!
   \*************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -18718,7 +18718,7 @@ exports.default = _default;
 /***/ }),
 /* 146 */
 /*!*****************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/tabbarItem.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/tabbarItem.js ***!
   \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -18755,7 +18755,7 @@ exports.default = _default;
 /***/ }),
 /* 147 */
 /*!***********************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/tabs.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/tabs.js ***!
   \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -18812,7 +18812,7 @@ exports.default = _default;
 /***/ }),
 /* 148 */
 /*!**********************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/tag.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/tag.js ***!
   \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -18858,7 +18858,7 @@ exports.default = _default;
 /***/ }),
 /* 149 */
 /*!***********************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/text.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/text.js ***!
   \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -18914,7 +18914,7 @@ exports.default = _default;
 /***/ }),
 /* 150 */
 /*!***************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/textarea.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/textarea.js ***!
   \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -18967,7 +18967,7 @@ exports.default = _default;
 /***/ }),
 /* 151 */
 /*!************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/toast.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/toast.js ***!
   \************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -19013,7 +19013,7 @@ exports.default = _default;
 /***/ }),
 /* 152 */
 /*!**************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/toolbar.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/toolbar.js ***!
   \**************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -19050,7 +19050,7 @@ exports.default = _default;
 /***/ }),
 /* 153 */
 /*!**************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/tooltip.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/tooltip.js ***!
   \**************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -19094,7 +19094,7 @@ exports.default = _default;
 /***/ }),
 /* 154 */
 /*!*****************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/transition.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/transition.js ***!
   \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -19129,7 +19129,7 @@ exports.default = _default;
 /***/ }),
 /* 155 */
 /*!*************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/props/upload.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/props/upload.js ***!
   \*************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -19188,7 +19188,7 @@ exports.default = _default;
 /***/ }),
 /* 156 */
 /*!*******************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/config/zIndex.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/config/zIndex.js ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -19224,7 +19224,7 @@ exports.default = _default;
 /***/ }),
 /* 157 */
 /*!***********************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/node_modules/uview-ui/libs/function/platform.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/node_modules/uview-ui/libs/function/platform.js ***!
   \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -19254,7 +19254,7 @@ exports.default = _default;
 /***/ }),
 /* 158 */
 /*!***********************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/util/api.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/util/api.js ***!
   \***********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -19268,7 +19268,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.myRequest = void 0;
 //封装数据请求的方法
 // const BASE_URL = 'http://172.16.20.246:8888';
-var BASE_URL = 'https://hygieneproduct.club:444/sleepapp';
+var BASE_URL = 'https://isleepagent.com:444/sleepapp';
 console.log(uni.getStorageSync('mytoken'));
 var myRequest = function myRequest(options) {
   return new Promise(function (resolve, reject) {
@@ -21646,8 +21646,112 @@ module.exports = function (str, opts) {
 /* 310 */,
 /* 311 */,
 /* 312 */
+/*!***********************************************************************************************!*\
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/components/uview-ui/components/u-popup/props.js ***!
+  \***********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _default = {
+  props: {
+    // 是否展示弹窗
+    show: {
+      type: Boolean,
+      default: uni.$u.props.popup.show
+    },
+    // 是否显示遮罩
+    overlay: {
+      type: Boolean,
+      default: uni.$u.props.popup.overlay
+    },
+    // 弹出的方向，可选值为 top bottom right left center
+    mode: {
+      type: String,
+      default: uni.$u.props.popup.mode
+    },
+    // 动画时长，单位ms
+    duration: {
+      type: [String, Number],
+      default: uni.$u.props.popup.duration
+    },
+    // 是否显示关闭图标
+    closeable: {
+      type: Boolean,
+      default: uni.$u.props.popup.closeable
+    },
+    // 自定义遮罩的样式
+    overlayStyle: {
+      type: [Object, String],
+      default: uni.$u.props.popup.overlayStyle
+    },
+    // 点击遮罩是否关闭弹窗
+    closeOnClickOverlay: {
+      type: Boolean,
+      default: uni.$u.props.popup.closeOnClickOverlay
+    },
+    // 层级
+    zIndex: {
+      type: [String, Number],
+      default: uni.$u.props.popup.zIndex
+    },
+    // 是否为iPhoneX留出底部安全距离
+    safeAreaInsetBottom: {
+      type: Boolean,
+      default: uni.$u.props.popup.safeAreaInsetBottom
+    },
+    // 是否留出顶部安全距离（状态栏高度）
+    safeAreaInsetTop: {
+      type: Boolean,
+      default: uni.$u.props.popup.safeAreaInsetTop
+    },
+    // 自定义关闭图标位置，top-left为左上角，top-right为右上角，bottom-left为左下角，bottom-right为右下角
+    closeIconPos: {
+      type: String,
+      default: uni.$u.props.popup.closeIconPos
+    },
+    // 是否显示圆角
+    round: {
+      type: [Boolean, String, Number],
+      default: uni.$u.props.popup.round
+    },
+    // mode=center，也即中部弹出时，是否使用缩放模式
+    zoom: {
+      type: Boolean,
+      default: uni.$u.props.popup.zoom
+    },
+    // 弹窗背景色，设置为transparent可去除白色背景
+    bgColor: {
+      type: String,
+      default: uni.$u.props.popup.bgColor
+    },
+    // 遮罩的透明度，0-1之间
+    overlayOpacity: {
+      type: [Number, String],
+      default: uni.$u.props.popup.overlayOpacity
+    }
+  }
+};
+exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
+
+/***/ }),
+/* 313 */,
+/* 314 */,
+/* 315 */,
+/* 316 */,
+/* 317 */,
+/* 318 */,
+/* 319 */,
+/* 320 */
 /*!**********************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/components/uview-ui/components/u-icon/icons.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/components/uview-ui/components/u-icon/icons.js ***!
   \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -21876,9 +21980,9 @@ var _default = {
 exports.default = _default;
 
 /***/ }),
-/* 313 */
+/* 321 */
 /*!**********************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/components/uview-ui/components/u-icon/props.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/components/uview-ui/components/u-icon/props.js ***!
   \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -21983,110 +22087,6 @@ exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
-/* 314 */,
-/* 315 */,
-/* 316 */,
-/* 317 */,
-/* 318 */,
-/* 319 */,
-/* 320 */,
-/* 321 */
-/*!***********************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/components/uview-ui/components/u-popup/props.js ***!
-  \***********************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-var _default = {
-  props: {
-    // 是否展示弹窗
-    show: {
-      type: Boolean,
-      default: uni.$u.props.popup.show
-    },
-    // 是否显示遮罩
-    overlay: {
-      type: Boolean,
-      default: uni.$u.props.popup.overlay
-    },
-    // 弹出的方向，可选值为 top bottom right left center
-    mode: {
-      type: String,
-      default: uni.$u.props.popup.mode
-    },
-    // 动画时长，单位ms
-    duration: {
-      type: [String, Number],
-      default: uni.$u.props.popup.duration
-    },
-    // 是否显示关闭图标
-    closeable: {
-      type: Boolean,
-      default: uni.$u.props.popup.closeable
-    },
-    // 自定义遮罩的样式
-    overlayStyle: {
-      type: [Object, String],
-      default: uni.$u.props.popup.overlayStyle
-    },
-    // 点击遮罩是否关闭弹窗
-    closeOnClickOverlay: {
-      type: Boolean,
-      default: uni.$u.props.popup.closeOnClickOverlay
-    },
-    // 层级
-    zIndex: {
-      type: [String, Number],
-      default: uni.$u.props.popup.zIndex
-    },
-    // 是否为iPhoneX留出底部安全距离
-    safeAreaInsetBottom: {
-      type: Boolean,
-      default: uni.$u.props.popup.safeAreaInsetBottom
-    },
-    // 是否留出顶部安全距离（状态栏高度）
-    safeAreaInsetTop: {
-      type: Boolean,
-      default: uni.$u.props.popup.safeAreaInsetTop
-    },
-    // 自定义关闭图标位置，top-left为左上角，top-right为右上角，bottom-left为左下角，bottom-right为右下角
-    closeIconPos: {
-      type: String,
-      default: uni.$u.props.popup.closeIconPos
-    },
-    // 是否显示圆角
-    round: {
-      type: [Boolean, String, Number],
-      default: uni.$u.props.popup.round
-    },
-    // mode=center，也即中部弹出时，是否使用缩放模式
-    zoom: {
-      type: Boolean,
-      default: uni.$u.props.popup.zoom
-    },
-    // 弹窗背景色，设置为transparent可去除白色背景
-    bgColor: {
-      type: String,
-      default: uni.$u.props.popup.bgColor
-    },
-    // 遮罩的透明度，0-1之间
-    overlayOpacity: {
-      type: [Number, String],
-      default: uni.$u.props.popup.overlayOpacity
-    }
-  }
-};
-exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
-
-/***/ }),
 /* 322 */,
 /* 323 */,
 /* 324 */,
@@ -22103,7 +22103,7 @@ exports.default = _default;
 /* 335 */,
 /* 336 */
 /*!***********************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/components/uview-ui/components/u-input/props.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/components/uview-ui/components/u-input/props.js ***!
   \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -22313,7 +22313,7 @@ exports.default = _default;
 /* 341 */,
 /* 342 */
 /*!****************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/components/uview-ui/libs/mixin/button.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/components/uview-ui/libs/mixin/button.js ***!
   \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -22343,7 +22343,7 @@ exports.default = _default;
 /***/ }),
 /* 343 */
 /*!******************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/components/uview-ui/libs/mixin/openType.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/components/uview-ui/libs/mixin/openType.js ***!
   \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -22385,7 +22385,7 @@ exports.default = _default;
 /***/ }),
 /* 344 */
 /*!************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/components/uview-ui/components/u-button/props.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/components/uview-ui/components/u-button/props.js ***!
   \************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -22571,7 +22571,7 @@ exports.default = _default;
 /* 351 */,
 /* 352 */
 /*!****************************************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/uni_modules/uni-datetime-picker/components/uni-datetime-picker/i18n/index.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/uni_modules/uni-datetime-picker/components/uni-datetime-picker/i18n/index.js ***!
   \****************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -22597,7 +22597,7 @@ exports.default = _default;
 /***/ }),
 /* 353 */
 /*!***************************************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/uni_modules/uni-datetime-picker/components/uni-datetime-picker/i18n/en.json ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/uni_modules/uni-datetime-picker/components/uni-datetime-picker/i18n/en.json ***!
   \***************************************************************************************************************************/
 /*! exports provided: uni-datetime-picker.selectDate, uni-datetime-picker.selectTime, uni-datetime-picker.selectDateTime, uni-datetime-picker.startDate, uni-datetime-picker.endDate, uni-datetime-picker.startTime, uni-datetime-picker.endTime, uni-datetime-picker.ok, uni-datetime-picker.clear, uni-datetime-picker.cancel, uni-datetime-picker.year, uni-datetime-picker.month, uni-calender.MON, uni-calender.TUE, uni-calender.WED, uni-calender.THU, uni-calender.FRI, uni-calender.SAT, uni-calender.SUN, uni-calender.confirm, default */
 /***/ (function(module) {
@@ -22607,7 +22607,7 @@ module.exports = JSON.parse("{\"uni-datetime-picker.selectDate\":\"select date\"
 /***/ }),
 /* 354 */
 /*!********************************************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/uni_modules/uni-datetime-picker/components/uni-datetime-picker/i18n/zh-Hans.json ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/uni_modules/uni-datetime-picker/components/uni-datetime-picker/i18n/zh-Hans.json ***!
   \********************************************************************************************************************************/
 /*! exports provided: uni-datetime-picker.selectDate, uni-datetime-picker.selectTime, uni-datetime-picker.selectDateTime, uni-datetime-picker.startDate, uni-datetime-picker.endDate, uni-datetime-picker.startTime, uni-datetime-picker.endTime, uni-datetime-picker.ok, uni-datetime-picker.clear, uni-datetime-picker.cancel, uni-datetime-picker.year, uni-datetime-picker.month, uni-calender.SUN, uni-calender.MON, uni-calender.TUE, uni-calender.WED, uni-calender.THU, uni-calender.FRI, uni-calender.SAT, uni-calender.confirm, default */
 /***/ (function(module) {
@@ -22617,7 +22617,7 @@ module.exports = JSON.parse("{\"uni-datetime-picker.selectDate\":\"选择日期\
 /***/ }),
 /* 355 */
 /*!********************************************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/uni_modules/uni-datetime-picker/components/uni-datetime-picker/i18n/zh-Hant.json ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/uni_modules/uni-datetime-picker/components/uni-datetime-picker/i18n/zh-Hant.json ***!
   \********************************************************************************************************************************/
 /*! exports provided: uni-datetime-picker.selectDate, uni-datetime-picker.selectTime, uni-datetime-picker.selectDateTime, uni-datetime-picker.startDate, uni-datetime-picker.endDate, uni-datetime-picker.startTime, uni-datetime-picker.endTime, uni-datetime-picker.ok, uni-datetime-picker.clear, uni-datetime-picker.cancel, uni-datetime-picker.year, uni-datetime-picker.month, uni-calender.SUN, uni-calender.MON, uni-calender.TUE, uni-calender.WED, uni-calender.THU, uni-calender.FRI, uni-calender.SAT, uni-calender.confirm, default */
 /***/ (function(module) {
@@ -22627,7 +22627,7 @@ module.exports = JSON.parse("{\"uni-datetime-picker.selectDate\":\"選擇日期\
 /***/ }),
 /* 356 */
 /*!**********************************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/uni_modules/uni-datetime-picker/components/uni-datetime-picker/util.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/uni_modules/uni-datetime-picker/components/uni-datetime-picker/util.js ***!
   \**********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -23114,7 +23114,7 @@ function fixIosDateFormat(value) {
 /* 398 */,
 /* 399 */
 /*!****************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/components/uview-ui/components/u-cell-group/props.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/components/uview-ui/components/u-cell-group/props.js ***!
   \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -23153,7 +23153,7 @@ exports.default = _default;
 /* 406 */,
 /* 407 */
 /*!**********************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/components/uview-ui/components/u-cell/props.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/components/uview-ui/components/u-cell/props.js ***!
   \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -23288,7 +23288,7 @@ exports.default = _default2;
 /* 414 */,
 /* 415 */
 /*!***********************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/components/uview-ui/components/u-modal/props.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/components/uview-ui/components/u-modal/props.js ***!
   \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -23397,7 +23397,7 @@ exports.default = _default;
 /* 422 */,
 /* 423 */
 /*!************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/components/uview-ui/components/u-notify/props.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/components/uview-ui/components/u-notify/props.js ***!
   \************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -23471,7 +23471,7 @@ exports.default = _default;
 /* 430 */,
 /* 431 */
 /*!******************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/components/uview-ui/components/u-loading-icon/props.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/components/uview-ui/components/u-loading-icon/props.js ***!
   \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -23555,7 +23555,7 @@ exports.default = _default;
 /* 438 */,
 /* 439 */
 /*!**********************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/components/uview-ui/components/u-line/props.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/components/uview-ui/components/u-line/props.js ***!
   \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -23613,7 +23613,7 @@ exports.default = _default;
 /* 446 */,
 /* 447 */
 /*!**********************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/components/uview-ui/components/u-form/props.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/components/uview-ui/components/u-form/props.js ***!
   \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -23681,7 +23681,7 @@ exports.default = _default;
 /* 452 */,
 /* 453 */
 /*!***************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/components/uview-ui/components/u-form-item/props.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/components/uview-ui/components/u-form-item/props.js ***!
   \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -23754,7 +23754,7 @@ exports.default = _default;
 /* 460 */,
 /* 461 */
 /*!************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/components/uview-ui/components/u-avatar/props.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/components/uview-ui/components/u-avatar/props.js ***!
   \************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -23864,7 +23864,7 @@ exports.default = _default;
 /* 475 */,
 /* 476 */
 /*!*************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/components/uview-ui/components/u-overlay/props.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/components/uview-ui/components/u-overlay/props.js ***!
   \*************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -23913,7 +23913,7 @@ exports.default = _default;
 /* 483 */,
 /* 484 */
 /*!****************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/components/uview-ui/components/u-transition/props.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/components/uview-ui/components/u-transition/props.js ***!
   \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -23955,7 +23955,7 @@ exports.default = _default;
 /***/ }),
 /* 485 */
 /*!*********************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/components/uview-ui/components/u-transition/transition.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/components/uview-ui/components/u-transition/transition.js ***!
   \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -24064,7 +24064,7 @@ exports.default = _default;
 /***/ }),
 /* 486 */
 /*!***********************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/components/uview-ui/components/u-transition/nvue.ani-map.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/components/uview-ui/components/u-transition/nvue.ani-map.js ***!
   \***********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -24264,7 +24264,7 @@ exports.default = _default;
 /* 493 */,
 /* 494 */
 /*!****************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/components/uview-ui/components/u-status-bar/props.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/components/uview-ui/components/u-status-bar/props.js ***!
   \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -24297,7 +24297,7 @@ exports.default = _default;
 /* 501 */,
 /* 502 */
 /*!*****************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/components/uview-ui/components/u-safe-bottom/props.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/components/uview-ui/components/u-safe-bottom/props.js ***!
   \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -24324,7 +24324,7 @@ exports.default = _default;
 /* 509 */,
 /* 510 */
 /*!***************************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/uni_modules/uni-icons/components/uni-icons/uniicons_file_vue.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/uni_modules/uni-icons/components/uni-icons/uniicons_file_vue.js ***!
   \***************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -33384,7 +33384,7 @@ module.exports = _isNativeFunction, module.exports.__esModule = true, module.exp
 /***/ }),
 /* 539 */
 /*!***************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/pages.json?{"type":"origin-pages-json"} ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/pages.json?{"type":"origin-pages-json"} ***!
   \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -33508,7 +33508,7 @@ exports.default = _default;
 /***/ }),
 /* 540 */
 /*!**************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/pages.json?{"type":"stat"} ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/pages.json?{"type":"stat"} ***!
   \**************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -33528,7 +33528,7 @@ exports.default = _default;
 /***/ }),
 /* 541 */
 /*!********************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/uni_modules/qiun-data-charts/js_sdk/u-charts/u-charts.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/uni_modules/qiun-data-charts/js_sdk/u-charts/u-charts.js ***!
   \********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -41188,7 +41188,7 @@ exports.default = _default;
 /***/ }),
 /* 542 */
 /*!**************************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/uni_modules/qiun-data-charts/js_sdk/u-charts/config-ucharts.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/uni_modules/qiun-data-charts/js_sdk/u-charts/config-ucharts.js ***!
   \**************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -41816,7 +41816,7 @@ exports.default = _default;
 /* 549 */,
 /* 550 */
 /*!************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/components/uview-ui/libs/util/async-validator.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/components/uview-ui/libs/util/async-validator.js ***!
   \************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -43362,7 +43362,7 @@ var substr = 'ab'.substr(-1) === 'b'
 /* 557 */,
 /* 558 */
 /*!**********************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/components/uview-ui/components/u-text/props.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/components/uview-ui/components/u-text/props.js ***!
   \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -43514,7 +43514,7 @@ exports.default = _default;
 /* 582 */,
 /* 583 */
 /*!**********************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/components/uview-ui/components/u-text/value.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/components/uview-ui/components/u-text/value.js ***!
   \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -43664,7 +43664,7 @@ exports.default = _default;
 /* 625 */,
 /* 626 */
 /*!**********************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/components/uview-ui/components/u-link/props.js ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/components/uview-ui/components/u-link/props.js ***!
   \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
