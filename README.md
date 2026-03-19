@@ -262,3 +262,11 @@ try {
 ## 联系方式
 
 如有问题，请联系开发团队。
+## 历史版本说明与查看引导
+- main 分支的提交历史顺序：0505 → 0515 → 0524 → 当前配置代码
+- 对应标签：v-0505-Initial_prototype、v-0515-Intermediate_update、v-0524-Stable_baseline
+- 查看方法：
+  - 命令行：git log --oneline --decorate --graph
+  - 切换快照：git checkout tags/v-0505-Initial_prototype（或 0515 / 0524）
+  - GitHub：在 Commits 与 Tags 页面查看并跳转
+- 历史归档分支：history-archive（集中存放历史说明与引导，不重复存放代码）
