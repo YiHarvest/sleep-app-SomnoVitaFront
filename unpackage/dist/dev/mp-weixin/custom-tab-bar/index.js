@@ -2,7 +2,7 @@
 
 /***/ 175:
 /*!*****************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/main.js?{"page":"custom-tab-bar%2Findex"} ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/main.js?{"page":"custom-tab-bar%2Findex"} ***!
   \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -23,7 +23,7 @@ createPage(_index.default);
 
 /***/ 176:
 /*!************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/custom-tab-bar/index.vue ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/custom-tab-bar/index.vue ***!
   \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -64,7 +64,7 @@ component.options.__file = "custom-tab-bar/index.vue"
 
 /***/ 177:
 /*!*******************************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/custom-tab-bar/index.vue?vue&type=template&id=47b4a9d0&scoped=true& ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/custom-tab-bar/index.vue?vue&type=template&id=47b4a9d0&scoped=true& ***!
   \*******************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -86,7 +86,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ 178:
 /*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/custom-tab-bar/index.vue?vue&type=template&id=47b4a9d0&scoped=true& ***!
+  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/custom-tab-bar/index.vue?vue&type=template&id=47b4a9d0&scoped=true& ***!
   \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -101,10 +101,10 @@ var components
 try {
   components = {
     uPopup: function () {
-      return Promise.all(/*! import() | components/uview-ui/components/u-popup/u-popup */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/uview-ui/components/u-popup/u-popup")]).then(__webpack_require__.bind(null, /*! @/components/uview-ui/components/u-popup/u-popup.vue */ 316))
+      return Promise.all(/*! import() | components/uview-ui/components/u-popup/u-popup */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/uview-ui/components/u-popup/u-popup")]).then(__webpack_require__.bind(null, /*! @/components/uview-ui/components/u-popup/u-popup.vue */ 307))
     },
     uIcon: function () {
-      return Promise.all(/*! import() | components/uview-ui/components/u-icon/u-icon */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/uview-ui/components/u-icon/u-icon")]).then(__webpack_require__.bind(null, /*! @/components/uview-ui/components/u-icon/u-icon.vue */ 307))
+      return Promise.all(/*! import() | components/uview-ui/components/u-icon/u-icon */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/uview-ui/components/u-icon/u-icon")]).then(__webpack_require__.bind(null, /*! @/components/uview-ui/components/u-icon/u-icon.vue */ 315))
     },
   }
 } catch (e) {
@@ -139,7 +139,7 @@ render._withStripped = true
 
 /***/ 179:
 /*!*************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/custom-tab-bar/index.vue?vue&type=script&lang=js& ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/custom-tab-bar/index.vue?vue&type=script&lang=js& ***!
   \*************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -155,7 +155,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ 180:
 /*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--13-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/custom-tab-bar/index.vue?vue&type=script&lang=js& ***!
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--13-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/custom-tab-bar/index.vue?vue&type=script&lang=js& ***!
   \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -236,7 +236,7 @@ var _default = {
       // 用户信息
       token: null,
       // 登录状态
-      BASEURL: 'https://hygieneproduct.club:444/sleepapp'
+      BASEURL: 'https://isleepagent.com:444/sleepapp'
     };
   },
   onShow: function onShow() {},
@@ -250,7 +250,7 @@ var _default = {
   methods: {
     getPhoneNumber: function getPhoneNumber(e) {
       uni.request({
-        url: "https://hygieneproduct.club:444/sleepapp/wx/user/bindPhoneNumber?code=".concat(e.detail.code),
+        url: "https://isleepagent.com:444/sleepapp/wx/user/bindPhoneNumber?code=".concat(e.detail.code),
         // 这里是自己的接口地址
         method: 'GET',
         header: {
@@ -300,7 +300,7 @@ var _default = {
       };
       //调用语音识别接口
       uni.request({
-        url: "https://hygieneproduct.club:444/sleepapp/web/chat/sendQuestion",
+        url: "https://isleepagent.com:444/sleepapp/web/chat/sendQuestion",
         //仅为示例，并非真实接口地址。
         data: postData,
         header: {
@@ -330,7 +330,7 @@ var _default = {
       wx.login({
         redirectPath: 'pages/tabbar/tabbar-1/tabbar-1',
         success: function success(res) {
-          var url = 'https://hygieneproduct.club:444/sleepapp/wx/user/login?code=' + res.code;
+          var url = 'https://isleepagent.com:444/sleepapp/wx/user/login?code=' + res.code;
           if (res.code) {
             uni.request({
               url: url,
@@ -521,7 +521,7 @@ exports.default = _default;
 
 /***/ 181:
 /*!*********************************************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/custom-tab-bar/index.vue?vue&type=style&index=0&id=47b4a9d0&scoped=true&lang=css& ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/custom-tab-bar/index.vue?vue&type=style&index=0&id=47b4a9d0&scoped=true&lang=css& ***!
   \*********************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -537,7 +537,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ 182:
 /*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-1-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-2!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/custom-tab-bar/index.vue?vue&type=style&index=0&id=47b4a9d0&scoped=true&lang=css& ***!
+  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-1-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-2!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/custom-tab-bar/index.vue?vue&type=style&index=0&id=47b4a9d0&scoped=true&lang=css& ***!
   \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {

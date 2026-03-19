@@ -130,39 +130,21 @@
 				<view class="cyber-value" style="flex:1;text-align:center;">{{sleepData.turnOverCount||0}}<span style='font-size:24rpx;color:#00ffe7;'>次</span></view>
 			</view>
 		</view>
-		<view style="margin-top:40rpx;width:92%;height:600rpx;background: #FFFFFF;margin-left:4%;border-radius:14rpx;">
-			<view
-				style="margin-top:40rpx;width:92%;height:600rpx;background: #FFFFFF;margin-left:4%;border-radius:14rpx;">
-				<view
-					style="font-size:38rpx;color:#2B3EB5;margin:0 40rpx;display:flex;align-items: center;padding-top:40rpx;">
-					<view style="width:10rpx;height:34rpx;background:#2B3EB5 ;border-radius:80rpx">
-
+		<view class="cyber-card sleep-efficiency-card" style="margin-top:40rpx;margin-left:4%;margin-right:4%;">
+			<view class="cyber-title sleep-efficiency-title">
+				<view class="sleep-efficiency-bar"></view>
+				睡眠效率
 					</view>
-					<view style="margin-left:14rpx;">
-						睡眠效率
-
-					</view>
-
-				</view>
+			<view class="cyber-divider"></view>
 				<echarts3 ref="echarts3"></echarts3>
 			</view>
-		</view>
-		<view style="margin-top:40rpx;width:92%;height:600rpx;background: #FFFFFF;margin-left:4%;border-radius:14rpx;">
-			<view
-				style="margin-top:40rpx;width:92%;height:600rpx;background: #FFFFFF;margin-left:4%;border-radius:14rpx;">
-				<view
-					style="font-size:38rpx;color:#2B3EB5;margin:0 40rpx;display:flex;align-items: center;padding-top:40rpx;">
-					<view style="width:10rpx;height:34rpx;background:#2B3EB5 ;border-radius:80rpx">
-
-					</view>
-					<view style="margin-left:14rpx;">
+		<view class="cyber-card night-snore-card" style="margin-top:40rpx;margin-left:4%;margin-right:4%;">
+			<view class="cyber-title night-snore-title">
+				<view class="night-snore-bar"></view>
 						夜间觉醒及打鼾数据
-
 					</view>
-
-				</view>
+			<view class="cyber-divider"></view>
 				<echarts4 ref="echarts4"></echarts4>
-			</view>
 		</view>
 		<!-- <view style="margin-top:40rpx;width:92%;height:1200rpx;background: #FFFFFF;margin-left:4%;border-radius:14rpx;">
       <view style="margin-top:40rpx;width:92%;height:1200rpx;background: #FFFFFF;margin-left:4%;border-radius:14rpx;">
@@ -181,20 +163,29 @@
     </view>
     </view> -->
 		<u-popup :show="showPopup" @close="close" @open="open">
-			<view
-				style="width:100%;height:120upx;background: #2c2c2c;color:#ccc;display: flex;justify-content: center;align-items: center;">
-				请选择设备</view>
-			<view style="width:100%;height:1upx;background: #E7e7e7;"></view>
-			<view v-for="(item,index) in deviceList" :key="index"
-				style="width:100%;height:160upx;background: #2c2c2c;color:#fff;display: flex;justify-content: center;align-items: center;border-bottom:1px solid #E7e7e7"
-				@click="change1(item)">
-				<view v-if="!item.deviceName">睡眠带{{ index+1 }}</view>
-				<view v-else>{{item.deviceName}}</view>
+			<view class="popup-cyber-outer-bg">
+				<view class="popup-cyber-card">
+					<view class="popup-title">请选择设备</view>
+					<view class="popup-divider"></view>
+					<view v-for="(item,index) in deviceList" :key="index" class="popup-device-item" @click="change1(item)">
+						<view v-if="!item.deviceName">睡眠带{{ index+1 }}</view>
+						<view v-else>{{item.deviceName}}</view>
+					</view>
+					<view class="popup-divider"></view>
+					<view class="popup-cancel-btn" @click="showPopup=false">取消</view>
+					<!-- 赛博流光边框 -->
+					<svg class="popup-cyber-border" viewBox="0 0 1000 600" preserveAspectRatio="none">
+						<rect x="6" y="6" width="988" height="588" rx="32" fill="none"
+							stroke="url(#cyber-neon)" stroke-width="8" class="cyber-neon-rect"/>
+						<defs>
+							<linearGradient id="cyber-neon" x1="0%" y1="0%" x2="100%" y2="100%">
+								<stop offset="0%" stop-color="#3a6aff"/>
+								<stop offset="100%" stop-color="#00ffe7"/>
+							</linearGradient>
+						</defs>
+					</svg>
+				</view>
 			</view>
-			<view style="width:100%;height:1upx;background: #E7e7e7;"></view>
-			<view
-				style="width:100%;height:120upx;background: #2c2c2c;color:#fff;display: flex;justify-content: center;align-items: center;"
-				@click="showPopup=false">取消</view>
 		</u-popup>
 	</view>
 </template>
@@ -266,7 +257,7 @@
 			},
 			getDevice() {
 				uni.request({
-					url: "https://hygieneproduct.club:444/sleepapp/user/getUserDeviceList", //仅为示例，并非真实接口地址。
+					url: "https://isleepagent.com:444/sleepapp/user/getUserDeviceList", //仅为示例，并非真实接口地址。
 					data: {
 						'deviceType': 1
 					},
@@ -931,7 +922,7 @@
 		margin-top: 18rpx;
 		margin-bottom: 12rpx;
 		letter-spacing: 2rpx;
-		background: linear-gradient(90deg, #3a6aff 30%, #00ffe7 70%);
+		background: linear-gradient(90deg, #3a6aff 70%, #00ffe7 100%);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		text-shadow: 0 0 16rpx #3a6affcc, 0 0 32rpx #00ffe7cc;
@@ -1016,5 +1007,198 @@
 
 	:deep(.uni-datetime-picker__btn-confirm) {
 		color: #3a6aff !important;
+	}
+
+	.sleep-efficiency-title {
+		display: flex;
+		align-items: center;
+		font-size: 38rpx;
+		color: #3a6aff;
+		font-weight: 700;
+		letter-spacing: 2rpx;
+		text-shadow: 0 0 16rpx #3a6affcc;
+		margin-bottom: 24rpx;
+	}
+	.sleep-efficiency-bar {
+		width: 10rpx;
+		height: 34rpx;
+		background: #3a6aff;
+		border-radius: 80rpx;
+		display: inline-block;
+		margin-right: 14rpx;
+		box-shadow: 0 0 16rpx #00ffe7cc;
+	}
+	.sleep-efficiency-card {
+		padding-bottom: 0;
+		min-height: 400rpx;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: flex-start;
+	}
+	.night-snore-title {
+		display: flex;
+		align-items: center;
+		font-size: 38rpx;
+		color: #3a6aff;
+		font-weight: 700;
+		letter-spacing: 2rpx;
+		text-shadow: 0 0 16rpx #3a6affcc;
+		margin-bottom: 24rpx;
+	}
+	.night-snore-bar {
+		width: 10rpx;
+		height: 34rpx;
+		background: #3a6aff;
+		border-radius: 80rpx;
+		display: inline-block;
+		margin-right: 14rpx;
+		box-shadow: 0 0 16rpx #00ffe7cc;
+	}
+	.night-snore-card {
+		padding-bottom: 0;
+		min-height: 400rpx;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: flex-start;
+	}
+
+	/* 设备选择弹窗科技风样式补全 */
+	.popup-cyber-outer-bg {
+		width: 100vw;
+		min-height: 40vh;
+		background: linear-gradient(135deg, #1a2233 60%, #232b3b 100%);
+		border-radius: 0 0 28rpx 28rpx;
+		box-shadow: 0 8rpx 48rpx 0 #00ffe755, 0 0 0 2rpx #3a6aff33 inset;
+		padding: 16rpx 0 16rpx 0;
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+		opacity: 0.98;
+		backdrop-filter: blur(12rpx) saturate(1.2);
+	}
+	.popup-cyber-card {
+		position: relative;
+		width: 92vw;
+		max-width: 700rpx;
+		min-height: 400rpx;
+		margin: 0 auto;
+		background: linear-gradient(120deg, #232b3b 60%, #1a2233 100%);
+		border-radius: 32rpx;
+		box-shadow: 0 0 64rpx #00ffe7cc, 0 0 0 4rpx #3a6affcc inset, 0 8rpx 32rpx #000a;
+		border: 2.5rpx solid #00ffe7cc;
+		padding: 0 0 32rpx 0;
+		overflow: hidden;
+		animation: cyber-breath 2.8s infinite alternate cubic-bezier(.23,1.01,.32,1);
+		z-index: 100;
+	}
+	.popup-cyber-border {
+		position: absolute;
+		left: 0; top: 0; width: 100%; height: 100%;
+		pointer-events: none;
+		z-index: 101;
+	}
+	.popup-title {
+		font-size: 36rpx;
+		color: #b6e0ff;
+		font-weight: 700;
+		text-align: center;
+		padding: 40rpx 0 24rpx 0;
+		letter-spacing: 2rpx;
+		text-shadow: 0 0 16rpx #3a6affcc, 0 0 32rpx #00ffe7cc;
+		background: linear-gradient(90deg, #3a6aff 30%, #00ffe7 70%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		animation: cyber-title-glow 2.5s infinite alternate;
+	}
+	@keyframes cyber-title-glow {
+		0% { text-shadow: 0 0 8rpx #3a6affcc, 0 0 16rpx #00ffe7cc; }
+		100% { text-shadow: 0 0 32rpx #3a6affcc, 0 0 64rpx #00ffe7cc; }
+	}
+	.popup-divider {
+		width: 90%;
+		height: 2rpx;
+		margin: 0 auto;
+		background: linear-gradient(90deg, #3a6aff 0%, #00ffe7 100%);
+		opacity: 0.18;
+	}
+	.popup-device-item {
+		width: 100%;
+		min-height: 100rpx;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 32rpx;
+		color: #fff;
+		font-weight: 600;
+		margin: 0 auto;
+		background: rgba(30,40,60,0.98);
+		border-radius: 18rpx;
+		margin-top: 18rpx;
+		box-shadow: 0 0 24rpx #3a6aff33, 0 0 0 2rpx #00ffe7cc inset;
+		transition: box-shadow 0.3s, background 0.3s, color 0.3s;
+		animation: cyber-breath 2.8s infinite alternate cubic-bezier(.23,1.01,.32,1);
+		position: relative;
+		cursor: pointer;
+		overflow: hidden;
+	}
+	.popup-device-item:active, .popup-device-item:focus {
+		background: linear-gradient(90deg, #3a6aff 60%, #00ffe7 100%);
+		color: #181f2a;
+		box-shadow: 0 0 48rpx #00ffe7cc, 0 0 0 4rpx #3a6affcc inset;
+	}
+	.popup-device-item::after {
+		content: '';
+		position: absolute;
+		left: 50%; top: 50%;
+		width: 120%; height: 120%;
+		background: radial-gradient(circle, #00ffe788 0%, transparent 80%);
+		transform: translate(-50%, -50%) scale(0);
+		opacity: 0;
+		pointer-events: none;
+		transition: opacity 0.3s, transform 0.3s;
+	}
+	.popup-device-item:active::after {
+		opacity: 0.7;
+		transform: translate(-50%, -50%) scale(1);
+	}
+	.popup-cancel-btn {
+		width: 100%;
+		min-height: 80rpx;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 32rpx;
+		color: #fff;
+		font-weight: 700;
+		margin: 0 auto;
+		margin-top: 24rpx;
+		background: linear-gradient(90deg, #3a6aff 60%, #00ffe7 100%);
+		border-radius: 18rpx;
+		box-shadow: 0 0 24rpx #00ffe7cc, 0 0 0 2rpx #3a6affcc inset;
+		position: relative;
+		cursor: pointer;
+		overflow: hidden;
+		transition: box-shadow 0.3s, background 0.3s, color 0.3s;
+	}
+	.popup-cancel-btn:active::after {
+		content: '';
+		position: absolute;
+		left: 50%; top: 50%;
+		width: 120%; height: 120%;
+		background: radial-gradient(circle, #00ffe788 0%, transparent 80%);
+		transform: translate(-50%, -50%);
+		opacity: 0.7;
+		pointer-events: none;
+		animation: btn-ripple 0.5s;
+	}
+	@keyframes btn-ripple {
+		0% { opacity: 0.7; }
+		100% { opacity: 0; }
+	}
+	@keyframes cyber-breath {
+		0% { box-shadow: 0 0 24rpx #3a6aff33, 0 0 0 0 #00ffe7cc inset;}
+		100% { box-shadow: 0 0 64rpx #3a6affcc, 0 0 24rpx 0 #00ffe7cc inset;}
 	}
 </style>

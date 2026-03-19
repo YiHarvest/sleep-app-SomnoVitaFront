@@ -5,6 +5,8 @@
       :opts="opts"
       :chartData="chartData"
       :ontouch="true"
+      background="rgba(24,31,42,0.98)"
+      style="width:90%;margin:0 auto;background:transparent;"
     />
   </view>
 </template>
@@ -17,46 +19,65 @@ export default {
       //您可以通过修改 config-ucharts.js 文件中下标为 ['column'] 的节点来配置全局默认参数，如都是默认参数，此处可以不传 opts 。实际应用过程中 opts 只需传入与全局默认参数中不一致的【某一个属性】即可实现同类型的图表显示不同的样式，达到页面简洁的需求。
       opts: {
         color: [
-          "#1890FF",
-          "#91CB74",
-          "#FAC858",
-          "#EE6666",
-          "#73C0DE",
-          "#3CA272",
-          "#FC8452",
-          "#9A60B4",
-          "#ea7ccc",
+          "#00ffe7",
+          "#3a6aff",
+          "#00ffe7",
+          "#3a6aff",
+          "#00ffe7",
+          "#3a6aff",
+          "#00ffe7"
         ],
-        enableScroll:true,
-        padding: [15, 0, 0, 0],
-        dataLabel: false,
-        dataPointShape: false,
-        legend: { position: "top", float: "left", show: false },
+        enableScroll: true,
+        padding: [15, 20, 15, 15],
+        dataLabel: true,
+        dataPointShape: true,
+        dataPointShapeType: 'solid',
+        legend: { 
+          position: "top", 
+          float: "left", 
+          show: false 
+        },
         xAxis: {
           disableGrid: true,
           itemCount: 7,
           scrollShow: true,
+          fontColor: "#b6e0ff",
+          fontSize: 12,
+          rotateLabel: true,
+          marginTop: 4
         },
         yAxis: {
           showTitle: true,
           data: [
             {
-              axisLine: false,
-              titleFontColor: "#676767",
-              axisLineColor: "#676767",
+              axisLine: true,
+              titleFontColor: "#b6e0ff",
+              axisLineColor: "#3a6aff44",
               title: "(%)",
               titleOffsetY: -5,
               titleOffsetX: 0,
-              titleFontSize: 16,
+              titleFontSize: 14,
+              gridColor: "#3a6aff22",
+              gridType: "dash",
+              dashLength: 4,
+              gridEval: 4,
+              fontColor: "#b6e0ff",
+              fontSize: 12
             },
           ],
         },
         extra: {
           column: {
             type: "group",
-            width: 10,
-            activeBgColor: "#000000",
-            activeBgOpacity: 0.08
+            width: 20,
+            activeBgColor: "#3a6aff",
+            activeBgOpacity: 0.2,
+            borderRadius: 4,
+            barBorderRadius: 4,
+            linearType: "custom",
+            linearOpacity: 1,
+            gradient: true,
+            gradientColor: ["#00ffe7", "#3a6aff"]
           },
         },
       },
@@ -121,17 +142,32 @@ export default {
             if (time.toString().length == 1) {
                 time = '0' + time.toString()
             }
-            return time
+            return time 
        }
   }
 };
 </script>
 
 <style scoped>
-  /* 请根据实际需求修改父元素尺寸，组件自动识别宽高 */
-  .charts-box {
-    width: 100%;
-    height: 240px;
-    margin-top:20px;
-  }
+.charts-box {
+  width: 100%;
+  min-height: 320rpx;
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-x: auto;
+}
+.charts-box::-webkit-scrollbar {
+  display: none;
+}
+@keyframes cyber-breath {
+  0% { box-shadow: 0 0 24rpx #3a6aff33, 0 0 0 0 #00ffe7cc inset;}
+  100% { box-shadow: 0 0 64rpx #3a6affcc, 0 0 24rpx 0 #00ffe7cc inset;}
+}
 </style>

@@ -2,7 +2,7 @@
 
 /***/ 167:
 /*!*******************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/main.js?{"page":"pages%2Ftabbar%2Ftabbar-2%2Ftabbar-2"} ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/main.js?{"page":"pages%2Ftabbar%2Ftabbar-2%2Ftabbar-2"} ***!
   \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -23,7 +23,7 @@ createPage(_tabbar.default);
 
 /***/ 168:
 /*!**********************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/pages/tabbar/tabbar-2/tabbar-2.vue ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/pages/tabbar/tabbar-2/tabbar-2.vue ***!
   \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -64,7 +64,7 @@ component.options.__file = "pages/tabbar/tabbar-2/tabbar-2.vue"
 
 /***/ 169:
 /*!*****************************************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/pages/tabbar/tabbar-2/tabbar-2.vue?vue&type=template&id=23ec5197&scoped=true& ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/pages/tabbar/tabbar-2/tabbar-2.vue?vue&type=template&id=23ec5197&scoped=true& ***!
   \*****************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -86,7 +86,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ 170:
 /*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/pages/tabbar/tabbar-2/tabbar-2.vue?vue&type=template&id=23ec5197&scoped=true& ***!
+  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/pages/tabbar/tabbar-2/tabbar-2.vue?vue&type=template&id=23ec5197&scoped=true& ***!
   \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -113,7 +113,7 @@ render._withStripped = true
 
 /***/ 171:
 /*!***********************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/pages/tabbar/tabbar-2/tabbar-2.vue?vue&type=script&lang=js& ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/pages/tabbar/tabbar-2/tabbar-2.vue?vue&type=script&lang=js& ***!
   \***********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -129,7 +129,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ 172:
 /*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--13-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/pages/tabbar/tabbar-2/tabbar-2.vue?vue&type=script&lang=js& ***!
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--13-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/pages/tabbar/tabbar-2/tabbar-2.vue?vue&type=script&lang=js& ***!
   \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -144,6 +144,56 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 var _regenerator = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/regenerator */ 55));
 var _asyncToGenerator2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/asyncToGenerator */ 57));
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -343,7 +393,11 @@ var _default = {
       isRecording: false,
       recorderManager: null,
       tempFilePath: '',
-      transcript: ''
+      transcript: '',
+      // 工具栏相关数据
+      activeToolBtn: '',
+      showCBTITools: false,
+      inputBoxHeight: 120 // 输入框底部距离，单位upx
     };
   },
   onLoad: function onLoad(option) {
@@ -365,14 +419,41 @@ var _default = {
   mounted: function mounted() {
     this.initRecord();
     this.getMsgList();
+    this.addWelcomeMessage(); // 添加欢迎消息
   },
   onShow: function onShow() {
     if (uni.getStorageSync('userInfo')) {
       this.userInfo = uni.getStorageSync('userInfo');
     }
     this.scrollTop = 9999999;
+    this.addWelcomeMessage(); // 添加欢迎消息
   },
+
   methods: {
+    // 添加欢迎消息方法
+    addWelcomeMessage: function addWelcomeMessage() {
+      // 创建欢迎消息
+      var msg = {
+        type: "user",
+        msg: {
+          id: this.generateRandomID(),
+          time: this.getCurrentTime(),
+          type: "text",
+          userinfo: {
+            uid: 1,
+            username: "管家",
+            face: "/static/img/q.png"
+          },
+          content: "您好，我是您的睡眠管家，有什么可以帮助您的吗？"
+        }
+      };
+
+      // 检查消息列表是否为空，或者最后一条消息不是欢迎消息
+      if (this.msgList.length === 0 || this.msgList.length > 0 && this.msgList[this.msgList.length - 1].msg.content !== "您好，我是您的睡眠管家，有什么可以帮助您的吗？") {
+        // 发送欢迎消息
+        this.screenMsg(msg);
+      }
+    },
     streamRecord: function streamRecord() {
       console.log('开始');
       this.animation = true;
@@ -781,6 +862,7 @@ var _default = {
       };
       // 发送消息
       this.screenMsg(msg);
+      console.log("[this.screenMsg(msg)] 函数到这里");
       this.getChatMsg(content);
     },
     padZero: function padZero(num) {
@@ -789,32 +871,46 @@ var _default = {
     },
     getChatMsg: function getChatMsg(msg) {
       var _this9 = this;
-      var nowDate = new Date();
-      var year = nowDate.getFullYear(); // 年
-      var month = nowDate.getMonth() + 1; // 月
-      var date = nowDate.getDate(); // 日
-      var chatId = new Date().getTime().toString();
-      var Viewid = this.msgList[this.msgList.length - 2].msg.id; //记住第一个信息ID
-      // console.log(this.msgList,Viewid)
-      // return
+      var messages = [{
+        role: "system",
+        content: "You are a helpful assistant"
+      }, {
+        role: "user",
+        content: msg
+      }];
       var postData = {
-        message: msg,
-        chatType: "1",
-        sourceId: Viewid || ''
-      };
-      //调用语音识别接口
-      uni.request({
-        url: "https://hygieneproduct.club:444/sleepapp/web/chat/sendQuestion",
-        //仅为示例，并非真实接口地址。
-        data: postData,
-        header: {
-          "content-type": "application/json",
-          token: uni.getStorageSync('mytoken')
+        messages: messages,
+        model: "deepseek-chat",
+        frequency_penalty: 0,
+        max_tokens: 2048,
+        presence_penalty: 0,
+        response_format: {
+          type: "text"
         },
+        stop: null,
+        stream: false,
+        stream_options: null,
+        temperature: 1,
+        top_p: 1,
+        tools: null,
+        tool_choice: "none",
+        logprobs: false,
+        top_logprobs: null
+      };
+      uni.request({
+        url: "https://api.deepseek.com/chat/completions",
+        data: JSON.stringify(postData),
+        header: {
+          "Content-Type": "application/json",
+          "Authorization": "Bearer sk-cc4f85d3ace049208d1c570e372e3050" // 替换成你的实际Token
+        },
+
         method: "POST",
         success: function success(res) {
+          var _res$data, _res$data$choices, _res$data$choices$, _res$data$choices$$me;
           _this9.msgFlag = true;
           console.log(res);
+          var reply = ((_res$data = res.data) === null || _res$data === void 0 ? void 0 : (_res$data$choices = _res$data.choices) === null || _res$data$choices === void 0 ? void 0 : (_res$data$choices$ = _res$data$choices[0]) === null || _res$data$choices$ === void 0 ? void 0 : (_res$data$choices$$me = _res$data$choices$.message) === null || _res$data$choices$$me === void 0 ? void 0 : _res$data$choices$$me.content) || "无响应内容";
           var msg = {
             type: "user",
             msg: {
@@ -826,14 +922,19 @@ var _default = {
                 username: "管家",
                 face: "/static/img/q.png"
               },
-              content: res.data.data
+              content: reply
             }
           };
-          // 发送消息
           _this9.screenMsg(msg);
         },
         fail: function fail(res) {
-          console.log("上传音频失败" + JSON.stringify(res));
+          console.log("AI对话请求失败", res);
+          uni.showToast({
+            title: "AI对话请求失败: " + ((res === null || res === void 0 ? void 0 : res.errMsg) || "请稍后再试"),
+            icon: 'none',
+            duration: 2000
+          });
+          _this9.msgFlag = true;
         }
       });
     },
@@ -998,7 +1099,13 @@ var _default = {
         },
 
         fail: function fail(res) {
-          console.log("上传音频失败" + JSON.stringify(res));
+          console.log("AI对话请求失败" + JSON.stringify(res));
+          _this11.msgFlag = true; // 请求失败时也需要重置标志，否则用户将无法发送新消息
+          uni.showToast({
+            title: "AI对话请求失败，请稍后再试",
+            icon: 'none',
+            duration: 2000
+          });
         }
       });
     },
@@ -1024,6 +1131,53 @@ var _default = {
           // mui.toast("读写出现异常: " + e.message);
         });
       });
+    },
+    // 工具栏相关方法
+    // 选择工具按钮
+    selectToolBtn: function selectToolBtn(btnType) {
+      this.activeToolBtn = btnType;
+
+      // 如果选择了CBTI按钮，显示CBTI工具栏
+      if (btnType === 'CBTI') {
+        this.showCBTITools = true;
+        this.activeToolBtn = ''; // 清空选中状态
+      } else {
+        // 根据不同的按钮类型执行不同的操作
+        switch (btnType) {
+          case 'PSQI':
+            // 发送PSQI相关消息
+            this.sendToolMessage('PSQI评估表');
+            break;
+          case 'negative':
+            // 发送负性思维记录表相关消息
+            this.sendToolMessage('负性思维记录表');
+            break;
+          case 'cognitive':
+            // 发送认知重构建议相关消息
+            this.sendToolMessage('获取认知重构建议');
+            break;
+          case 'sleep':
+            // 发送睡眠限制计划相关消息
+            this.sendToolMessage('获取睡眠限制计划');
+            break;
+          case 'stimulus':
+            // 发送刺激控制计划相关消息
+            this.sendToolMessage('获取刺激控制计划');
+            break;
+        }
+      }
+    },
+    // 退出CBTI工具栏
+    exitCBTITools: function exitCBTITools() {
+      this.showCBTITools = false;
+      this.activeToolBtn = ''; // 清空选中状态
+    },
+    // 发送工具相关消息
+    sendToolMessage: function sendToolMessage(toolType) {
+      // 构建消息内容
+      var content = "\u8BF7\u63D0\u4F9B".concat(toolType);
+      // 发送消息
+      this.sendMsg(content);
     }
   }
 };
@@ -1034,7 +1188,7 @@ exports.default = _default;
 
 /***/ 173:
 /*!********************************************************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/pages/tabbar/tabbar-2/tabbar-2.vue?vue&type=style&index=0&id=23ec5197&lang=scss&scoped=true& ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/pages/tabbar/tabbar-2/tabbar-2.vue?vue&type=style&index=0&id=23ec5197&lang=scss&scoped=true& ***!
   \********************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1050,7 +1204,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ 174:
 /*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--8-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--8-oneOf-1-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--8-oneOf-1-2!./node_modules/postcss-loader/src??ref--8-oneOf-1-3!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/sass-loader/dist/cjs.js??ref--8-oneOf-1-4!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--8-oneOf-1-5!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/yiqy/HBuilderProjects/睡眠app_gmx_0505/pages/tabbar/tabbar-2/tabbar-2.vue?vue&type=style&index=0&id=23ec5197&lang=scss&scoped=true& ***!
+  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--8-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--8-oneOf-1-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--8-oneOf-1-2!./node_modules/postcss-loader/src??ref--8-oneOf-1-3!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/sass-loader/dist/cjs.js??ref--8-oneOf-1-4!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--8-oneOf-1-5!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/pages/tabbar/tabbar-2/tabbar-2.vue?vue&type=style&index=0&id=23ec5197&lang=scss&scoped=true& ***!
   \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {

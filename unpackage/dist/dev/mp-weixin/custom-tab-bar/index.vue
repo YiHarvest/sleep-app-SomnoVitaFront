@@ -68,7 +68,7 @@ export default {
       ],
       userInfo: null, // 用户信息
       token: null, // 登录状态
-      BASEURL: 'https://hygieneproduct.club:444/sleepapp'
+      BASEURL: 'https://isleepagent.com:444/sleepapp'
     };
   },
   onShow() {
@@ -84,7 +84,7 @@ export default {
   methods: {
     getPhoneNumber(e) {
       uni.request({
-					url: `https://hygieneproduct.club:444/sleepapp/wx/user/bindPhoneNumber?code=${e.detail.code}`, // 这里是自己的接口地址
+					url: `https://isleepagent.com:444/sleepapp/wx/user/bindPhoneNumber?code=${e.detail.code}`, // 这里是自己的接口地址
 					method: 'GET',
           header: {
           "content-type": "application/json",
@@ -134,7 +134,7 @@ export default {
       };
   //调用语音识别接口
     uni.request({
-        url: "https://hygieneproduct.club:444/sleepapp/web/chat/sendQuestion", //仅为示例，并非真实接口地址。
+        url: "https://isleepagent.com:444/sleepapp/web/chat/sendQuestion", //仅为示例，并非真实接口地址。
         data: postData,
         header: {
           "content-type": "application/json",
@@ -163,7 +163,7 @@ export default {
 			wx.login({
 			redirectPath: 'pages/tabbar/tabbar-1/tabbar-1',
 			success (res) {
-        let url = 'https://hygieneproduct.club:444/sleepapp/wx/user/login?code=' + res.code
+        let url = 'https://isleepagent.com:444/sleepapp/wx/user/login?code=' + res.code
 				if (res.code) {
         uni.request({
           url: url, // 必选，请求的接口地址

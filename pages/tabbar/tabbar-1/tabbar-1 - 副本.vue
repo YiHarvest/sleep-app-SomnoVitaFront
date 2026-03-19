@@ -227,7 +227,7 @@ export default {
   },
   getDevice(){
     uni.request({
-        url: "https://hygieneproduct.club:444/sleepapp/user/getUserDeviceList", //仅为示例，并非真实接口地址。
+        url: "https://isleepagent.com:444/sleepapp/user/getUserDeviceList", //仅为示例，并非真实接口地址。
         data: {'deviceType':1},
         header: {
           "content-type": "application/json",
@@ -274,7 +274,7 @@ export default {
 				console.log('调用连接websocket')
                 console.log(this.current)
 				this.socketTask = uni.connectSocket({
-						url: `wss://hygieneproduct.club:444/ws/draw/${this.current.deviceId}`,
+						url: `wss://isleepagent.com:444/ws/draw/${this.current.deviceId}`,
 						// url: `ws://124.222.15.162:8888/ws/draw/4d475939343938373336`,
 						success(res) {
 							console.log("websocket连接成功");

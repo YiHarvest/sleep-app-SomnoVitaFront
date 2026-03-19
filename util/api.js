@@ -1,6 +1,6 @@
 //封装数据请求的方法
 // const BASE_URL = 'http://172.16.20.246:8888';
-const BASE_URL = 'https://hygieneproduct.club:444/sleepapp';
+const BASE_URL = 'https://isleepagent.com:444/sleepapp';
 console.log(uni.getStorageSync('mytoken'))
 export const myRequest = function(options){
 	return new Promise((resolve,reject)=>{

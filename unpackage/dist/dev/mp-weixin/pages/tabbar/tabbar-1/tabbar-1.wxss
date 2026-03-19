@@ -10,13 +10,14 @@
 }
 .tq.data-v-42007077 {
   padding-left: 20rpx;
-  height: 120rpx;
+  height: 20rpx;
+  margin-bottom: 20rpx;
 }
 .data-container.data-v-42007077 {
   width: 100%;
   padding: 0 20rpx;
   box-sizing: border-box;
-  margin-bottom: 40rpx;
+  margin-bottom: 20rpx;
 }
 .data-row.data-v-42007077 {
   
@@ -38,11 +39,11 @@
 }
 .data-value.data-v-42007077 {
   display: flex;
-  margin-top: 20rpx;
+  margin-top: 10rpx;
   align-items: baseline;
 }
 .number.data-v-42007077 {
-  font-size: 48rpx;
+  font-size: 10rpx;
   font-weight: bold;
 }
 .unit.data-v-42007077 {
@@ -301,7 +302,9 @@ to { -webkit-transform: rotate(0deg); transform: rotate(0deg);
 .value-container.data-v-42007077 {
   display: flex;
   align-items: baseline;
+  flex-wrap: nowrap;
   justify-content: center;
+  width: 100%;
 }
 .left-card.data-v-42007077 {
   -webkit-transform: perspective(800rpx) rotateY(5deg);
@@ -318,9 +321,8 @@ to { -webkit-transform: rotate(0deg); transform: rotate(0deg);
   text-shadow: 0 0 10rpx rgba(255,255,255,0.5);
 }
 .unit.data-v-42007077 {
-  margin-left: 8rpx;
+  white-space: nowrap;
   font-size: 24rpx;
-  color: #4B9EFF;
 }
 /* 卡片装饰角 */
 .card-corner.data-v-42007077 {
@@ -528,7 +530,7 @@ to { -webkit-transform: rotate(0deg); transform: rotate(0deg);
     0 8rpx 32rpx 0 #0008;
   border: 1.5rpx solid #3a6aff44;
   padding: 28rpx 20rpx;
-  margin-bottom: 12rpx;
+  margin-bottom: 40rpx;
   position: relative;
   transition: box-shadow 0.3s, -webkit-transform 0.3s;
   transition: box-shadow 0.3s, transform 0.3s;
@@ -565,13 +567,6 @@ to { -webkit-transform: rotate(0deg); transform: rotate(0deg);
   overflow: hidden;
   -webkit-backdrop-filter: blur(12rpx) saturate(1.2);
           backdrop-filter: blur(12rpx) saturate(1.2);
-}
-.legend-title.data-v-42007077 {
-  font-size: 28rpx;
-  color: #3a6aff;
-  font-weight: 600;
-  margin-bottom: 8rpx;
-  letter-spacing: 1rpx;
 }
 .legend-list.data-v-42007077 {
   display: flex;
@@ -615,7 +610,7 @@ to { -webkit-transform: rotate(0deg); transform: rotate(0deg);
 /* 超级酷炫设备切换卡片 */
 .device-switch-card.data-v-42007077 {
   width: 92vw;
-  margin: 0 auto 32rpx auto;
+  margin: 0 auto 20rpx auto;
   background: linear-gradient(120deg, #1a2a3a 60%, #233a5a 100%);
   border-radius: 20rpx;
   box-shadow: 0 0 32rpx 0 #3a6aff88, 0 0 0 2rpx #3a6aff44 inset;
@@ -623,7 +618,7 @@ to { -webkit-transform: rotate(0deg); transform: rotate(0deg);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 24rpx;
+  padding: 0 14rpx;
   position: relative;
   overflow: visible;
 }
@@ -933,9 +928,9 @@ to { -webkit-transform: rotate(0deg); transform: rotate(0deg);
   width: 100vw;
   min-height: 40vh;
   background: linear-gradient(135deg, #1a2233 60%, #232b3b 100%);
-  border-radius: 36rpx 36rpx 28rpx 28rpx;
+  border-radius: 0 0 28rpx 28rpx;
   box-shadow: 0 8rpx 48rpx 0 #00ffe755, 0 0 0 2rpx #3a6aff33 inset;
-  padding: 0 0 32rpx 0;
+  padding: 16rpx 0 16rpx 0;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -1077,10 +1072,10 @@ to { -webkit-transform: rotate(0deg); transform: rotate(0deg);
 }
 /* 终极优化弹窗圆角，适配所有uView层级，彻底杜绝白角穿帮 */
 .data-v-42007077:deep(.u-popup),.data-v-42007077:deep(.u-popup__wrapper),.data-v-42007077:deep(.u-popup__content),.data-v-42007077:deep(.u-transition),.data-v-42007077:deep(.u-overlay) {
-  border-radius: 36rpx 36rpx 28rpx 28rpx !important;
+  border-radius: 0 0 28rpx 28rpx !important;
   overflow: hidden !important;
   background: rgba(20,28,40,0.92) !important;
   z-index: 99999 !important;
-  box-shadow: 0 8rpx 48rpx 0 #00ffe755, 0 0 0 2rpx #3a6aff33 inset !important;
+  box-shadow: none !important;
 }
 

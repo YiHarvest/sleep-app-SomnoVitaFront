@@ -88,7 +88,7 @@
 		},
 		confirmhj(){
 			uni.request({
-			url: "https://hygieneproduct.club:444/sleepapp/user/updateDeviceName", //仅为示例，并非真实接口地址。
+			url: "https://isleepagent.com:444/sleepapp/user/updateDeviceName", //仅为示例，并非真实接口地址。
 			data: {"deviceBindId": this.copy.id, "deviceName": this.copy.deviceName
 },
 			header: {
@@ -116,7 +116,7 @@
 		},
 		getDevice(){
 				uni.request({
-			url: "https://hygieneproduct.club:444/sleepapp/user/getUserDeviceList", //仅为示例，并非真实接口地址。
+			url: "https://isleepagent.com:444/sleepapp/user/getUserDeviceList", //仅为示例，并非真实接口地址。
 			data: {'deviceType':1},
 			header: {
 			"content-type": "application/json",

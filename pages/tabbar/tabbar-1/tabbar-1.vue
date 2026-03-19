@@ -1,5 +1,5 @@
 <template>
-  <view class="content" style="background: #1a1a1a;">
+  <view class="content" style="background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);padding-bottom: 120rpx; padding-bottom: constant(safe-area-inset-bottom, 120rpx); padding-bottom: env(safe-area-inset-bottom, 120rpx);">
     <view class="tq">
     </view>
     <view class="data-container">
@@ -62,19 +62,18 @@
         </view>
       </view>
     </view>
-    <view
+    <!-- <view
       style="
         width: 100%;
-        height: 60rpx;
+        height: 20rpx;
         display: flex;
         justify-content: center;
         align-items: center;
       "
     >
-      <!-- <image src="../../../static/img/zc.png" style="width: 300rpx;height:340rpx" v-if="hxObj.bedStatus=='1'"></image>
-      <image src="../../../static/img/lc.png" style="width: 300rpx;height:340rpx" v-else></image> -->
-    </view>
-    <view style="width:92%;height:780rpx;background: transparent;margin-left:4%;border-radius:20rpx;margin-top:-40rpx;"> 
+    </view> -->
+    
+    <!-- <view style="width:92%;height:780rpx;background: transparent;margin-left:4%;border-radius:20rpx;margin-top:-40rpx;"> 
       <view v-if='deviceList.length>0' style="width:100%;height:60rpx;display: flex;align-items: center;background: #CDE9F5;padding-left:20upx;box-sizing: border-box;color:#B6B3B7;border-top-left-radius: 10upx;border-top-right-radius: 10upx;justify-content: space-between;">
         <view>{{ current.deviceName ||current.deviceNo }}</view>
         <view style="width:20%;height:100%;background: #92DEFB;border-top-right-radius: 10upx;display: flex;justify-content: center;align-items: center;color:#fff;font-size:26upx;" @click="changeSmd">
@@ -82,7 +81,7 @@
           <view  style="margin-left:10upx">切换</view>
         </view>
       </view>
-      <view style="width:100%;height:600rpx;">
+      <view style="width:100%;min-height:800rpx;margin-bottom:32rpx;">
         <view style="width:100%;height:50rpx;color:#fff;font-size:40rpx;display:flex;justify-content: center;align-items: center;padding-top:38rpx;font-weight:700">
           睡眠数据分析
         </view>
@@ -123,18 +122,10 @@
               离线
              </view> 
            </view>
-           <!-- <view style="width:100%;height:100rpx;margin-top:20rpx;display:flex;padding:0 5%;">
-              <view
-                    style="width: 2.2%; height: 100%;"
-                    v-for="(item, index) in statuSarr"
-                    :key="index"
-                    :style="{ background: filter(item) }"
-                  ></view>
-            </view> -->
       </view>
         
-    </view>
-    <view style="width:92%;min-height:150rpx;margin-left:4%;border-radius:20rpx;;margin-top:40rpx;">
+    </view> -->
+    <view style="width:92%;min-height:30rpx;margin-left:4%;border-radius:20rpx;">
 
       <u-popup :show="showPopup" @close="close" @open="open" >
         <view class="popup-cyber-outer-bg">
@@ -205,7 +196,6 @@
       <!-- 粒子星轨背景canvas -->
       <canvas id="cyber-particle-bg" class="cyber-particle-bg"></canvas>
       <view class="legend-block">
-        <view class="legend-title">图例</view>
         <view class="legend-list">
           <view class="legend-item">
             <view class="legend-dot" style="background:#2889FE;box-shadow:0 0 16rpx #00ffe7cc, 0 0 32rpx #3a6affcc"></view>
@@ -339,7 +329,7 @@ export default {
   },
   getDevice(){
     uni.request({
-        url: "https://hygieneproduct.club:444/sleepapp/user/getUserDeviceList", //仅为示例，并非真实接口地址。
+        url: "https://isleepagent.com:444/sleepapp/user/getUserDeviceList", //仅为示例，并非真实接口地址。
         data: {'deviceType':1},
         header: {
           "content-type": "application/json",
@@ -386,7 +376,7 @@ export default {
 				console.log('调用连接websocket')
                 console.log(this.current)
 				this.socketTask = uni.connectSocket({
-						url: `wss://hygieneproduct.club:444/ws/draw/${this.current.deviceId}`,
+						url: `wss://isleepagent.com:444/ws/draw/${this.current.deviceId}`,
 						// url: `ws://124.222.15.162:8888/ws/draw/4d475939343938373336`,
 						success(res) {
 							console.log("websocket连接成功");
@@ -478,13 +468,14 @@ export default {
 }
 .tq {
   padding-left: 20rpx;
-  height: 120rpx;
+  height: 20rpx;
+  margin-bottom: 20rpx;
 }
 .data-container {
   width: 100%;
   padding: 0 20rpx;
   box-sizing: border-box;
-  margin-bottom: 40rpx;
+  margin-bottom: 20rpx;
 }
 
 .data-row {
@@ -510,12 +501,12 @@ export default {
 
 .data-value {
   display: flex;
-  margin-top: 20rpx;
+  margin-top: 10rpx;
   align-items: baseline;
 }
 
 .number {
-  font-size: 48rpx;
+  font-size: 10rpx;
   font-weight: bold;
 }
 
@@ -760,7 +751,9 @@ export default {
 .value-container {
   display: flex;
   align-items: baseline;
+  flex-wrap: nowrap;
   justify-content: center;
+  width: 100%;
 }
 
 .left-card {
@@ -779,9 +772,8 @@ export default {
 }
 
 .unit {
-  margin-left: 8rpx;
+  white-space: nowrap;
   font-size: 24rpx;
-  color: #4B9EFF;
 }
 
 /* 卡片装饰角 */
@@ -959,7 +951,7 @@ export default {
     0 8rpx 32rpx 0 #0008;
   border: 1.5rpx solid #3a6aff44;
   padding: 28rpx 20rpx;
-  margin-bottom: 12rpx;
+  margin-bottom: 40rpx;
   position: relative;
   transition: box-shadow 0.3s, transform 0.3s;
   overflow: hidden;
@@ -992,14 +984,6 @@ export default {
   transition: box-shadow 0.3s, transform 0.3s;
   overflow: hidden;
   backdrop-filter: blur(12rpx) saturate(1.2);
-}
-
-.legend-title {
-  font-size: 28rpx;
-  color: #3a6aff;
-  font-weight: 600;
-  margin-bottom: 8rpx;
-  letter-spacing: 1rpx;
 }
 
 .legend-list {
@@ -1047,7 +1031,7 @@ export default {
 /* 超级酷炫设备切换卡片 */
 .device-switch-card {
   width: 92vw;
-  margin: 0 auto 32rpx auto;
+  margin: 0 auto 20rpx auto;
   background: linear-gradient(120deg, #1a2a3a 60%, #233a5a 100%);
   border-radius: 20rpx;
   box-shadow: 0 0 32rpx 0 #3a6aff88, 0 0 0 2rpx #3a6aff44 inset;
@@ -1055,7 +1039,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 24rpx;
+  padding: 0 14rpx;
   position: relative;
   overflow: visible;
 }
@@ -1303,9 +1287,9 @@ export default {
   width: 100vw;
   min-height: 40vh;
   background: linear-gradient(135deg, #1a2233 60%, #232b3b 100%);
-  border-radius: 36rpx 36rpx 28rpx 28rpx;
+  border-radius: 0 0 28rpx 28rpx;
   box-shadow: 0 8rpx 48rpx 0 #00ffe755, 0 0 0 2rpx #3a6aff33 inset;
-  padding: 0 0 32rpx 0;
+  padding: 16rpx 0 16rpx 0;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -1434,10 +1418,10 @@ export default {
 :deep(.u-popup__content),
 :deep(.u-transition),
 :deep(.u-overlay) {
-  border-radius: 36rpx 36rpx 28rpx 28rpx !important;
+  border-radius: 0 0 28rpx 28rpx !important;
   overflow: hidden !important;
   background: rgba(20,28,40,0.92) !important;
   z-index: 99999 !important;
-  box-shadow: 0 8rpx 48rpx 0 #00ffe755, 0 0 0 2rpx #3a6aff33 inset !important;
+  box-shadow: none !important;
 }
 </style>

@@ -139,7 +139,7 @@
 					wx.login({
 					redirectPath: 'pages/tabbar/tabbar-2/tabbar-2',
 					success (res) {
-						let url = 'https://hygieneproduct.club:444/sleepapp/wx/user/login?code=' + res.code
+						let url = 'https://isleepagent.com:444/sleepapp/wx/user/login?code=' + res.code
 								if (res.code) {
 						uni.request({
 						url: url, // 必选，请求的接口地址

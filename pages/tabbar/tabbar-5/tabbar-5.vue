@@ -227,7 +227,7 @@ export default {
     getPhoneNumber(e) {
       this.isLoading = true;
       uni.request({
-        url: `https://hygieneproduct.club:444/sleepapp/wx/user/bindPhoneNumber?code=${e.detail.code}`, // 这里是自己的接口地址
+        url: `https://isleepagent.com:444/sleepapp/wx/user/bindPhoneNumber?code=${e.detail.code}`, // 这里是自己的接口地址
         method: 'GET',
         header: {
           "content-type": "application/json",
@@ -327,7 +327,7 @@ export default {
 	},
   getDevice(){
     uni.request({
-        url: "https://hygieneproduct.club:444/sleepapp/user/getUserDeviceList", //仅为示例，并非真实接口地址。
+        url: "https://isleepagent.com:444/sleepapp/user/getUserDeviceList", //仅为示例，并非真实接口地址。
         data: {'deviceType':1},
         header: {
           "content-type": "application/json",
@@ -360,7 +360,7 @@ export default {
           success: function (res) {
               if (res.confirm) {
                     uni.request({
-                      url: `https://hygieneproduct.club:444/sleepapp/user/unbind?deviceId=${item.deviceId}`, //仅为示例，并非真实接口地址。
+                      url: `https://isleepagent.com:444/sleepapp/user/unbind?deviceId=${item.deviceId}`, //仅为示例，并非真实接口地址。
                       header: {
                         "content-type": "application/json",
                         token:uni.getStorageSync('mytoken')
@@ -437,7 +437,7 @@ export default {
                       deviceId: res.result,
                     };
                     uni.request({
-                      url: "https://hygieneproduct.club:444/sleepapp/user/bind", //仅为示例，并非真实接口地址。
+                      url: "https://isleepagent.com:444/sleepapp/user/bind", //仅为示例，并非真实接口地址。
                       data: postData,
                       header: {
                         "content-type": "application/json",
@@ -508,7 +508,7 @@ export default {
         deviceId: this.value,
       };
       uni.request({
-        url: "https://hygieneproduct.club:444/sleepapp/user/bind", //仅为示例，并非真实接口地址。
+        url: "https://isleepagent.com:444/sleepapp/user/bind", //仅为示例，并非真实接口地址。
         data: postData,
         header: {
           "content-type": "application/json",
@@ -563,7 +563,7 @@ export default {
       };
       uni.request({
         // url: "http://172.16.20.246:8888/environment/bind", //仅为示例，并非真实接口地址。
-        url: "https://hygieneproduct.club:444/sleepapp/environment/bind", //仅为示例，并非真实接口地址。
+        url: "https://isleepagent.com:444/sleepapp/environment/bind", //仅为示例，并非真实接口地址。
         data: postData,
         header: {
           "content-type": "application/json",
