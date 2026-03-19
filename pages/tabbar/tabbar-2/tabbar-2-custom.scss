@@ -52,16 +52,12 @@
   padding: 10upx 0;
   box-shadow: 0 -2upx 10upx rgba(0, 0, 0, 0.1);
   
-  .tools-scroll {
-    width: 100%;
-    white-space: nowrap;
-  }
-  
   .tools-container {
-    display: inline-flex;
+    display: flex;
     padding: 0 20upx;
     width: 100%;
-    justify-content: center;
+    justify-content: center; /* 默认居中显示按钮 */
+    flex-wrap: wrap; /* 允许按钮换行 */
   }
   
   .tool-btn {

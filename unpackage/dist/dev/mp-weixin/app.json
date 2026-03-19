@@ -7,6 +7,7 @@
     "pages/tabbar/tabbar-4/tabbar-4",
     "pages/tabbar/tabbar-5/tabbar-5",
     "pages/tabbar/tabbar-6/tabbar-6",
+    "pages/tabbar/tabbar-7/tabbar-7",
     "pages/tabbar-3-detial/tabbar-3-release/tabbar-3-release",
     "pages/tabbar-3-detial/tabbar-3-release/product",
     "pages/tabbar-3-detial/tabbar-3-release/cbti",
@@ -47,7 +48,13 @@
         "pagePath": "pages/tabbar/tabbar-2/tabbar-2",
         "iconPath": "static/img/tabbar/ai.png",
         "selectedIconPath": "static/img/tabbar/activeai.png",
-        "text": "AI"
+        "text": "AI对话"
+      },
+      {
+        "pagePath": "pages/tabbar/tabbar-7/tabbar-7",
+        "iconPath": "static/img/tabbar/history.png",
+        "selectedIconPath": "static/img/tabbar/activehistory.png",
+        "text": "扫一扫"
       },
       {
         "pagePath": "pages/tabbar/tabbar-5/tabbar-5",

@@ -144,6 +144,16 @@
 						夜间觉醒及打鼾数据
 					</view>
 			<view class="cyber-divider"></view>
+			<view class="legend-list">
+          <view class="legend-item">
+            <view class="legend-dot" style="background:#3a6aff;box-shadow:0 0 16rpx #00ffe7cc, 0 0 32rpx #3a6affcc"></view>
+            <text class="legend-label">觉醒</text>
+          </view>
+          <view class="legend-item">
+            <view class="legend-dot" style="background:#00ffe7;box-shadow:0 0 16rpx #A665FE, 0 0 32rpx #3a6affcc"></view>
+            <text class="legend-label">打鼾</text>
+          </view>
+        </view>
 				<echarts4 ref="echarts4"></echarts4>
 		</view>
 		<!-- <view style="margin-top:40rpx;width:92%;height:1200rpx;background: #FFFFFF;margin-left:4%;border-radius:14rpx;">
@@ -1201,4 +1211,52 @@
 		0% { box-shadow: 0 0 24rpx #3a6aff33, 0 0 0 0 #00ffe7cc inset;}
 		100% { box-shadow: 0 0 64rpx #3a6affcc, 0 0 24rpx 0 #00ffe7cc inset;}
 	}
+	.legend-list {
+  display: flex;
+  flex-wrap: wrap;         /* 允许换行 */
+  gap: 38rpx 32rpx;
+  justify-content: flex-start;
+}
+
+.legend-item {
+  width: 40%;              /* 每行3个，留点间距 */
+  min-width: 120rpx;       /* 可根据实际微调 */
+  margin-bottom: 12rpx;
+  display: flex;
+  align-items: center;
+  gap: 8rpx;
+}
+
+.legend-dot {
+  width: 20rpx;
+  height: 20rpx;
+  border-radius: 50%;
+  box-shadow: 0 0 12rpx #3a6aff88;
+  margin-right: 6rpx;
+  border: 2rpx solid #fff2;
+}
+/* .legend-dot::after {
+  content: '';
+  position: absolute;
+  left: 50%; top: 50%;
+  width: 100%; height: 100%;
+  border-radius: 50%;
+  background: inherit;
+  opacity: 0.4;
+  transform: translate(-50%, -50%) scale(1);
+} */
+
+.legend-label {
+  font-size: 22rpx;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 1rpx;
+}
+.charts-box {
+  width: 100% !important;
+  min-height: 320rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 </style>

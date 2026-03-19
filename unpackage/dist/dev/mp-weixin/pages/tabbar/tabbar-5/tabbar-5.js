@@ -2,7 +2,7 @@
 
 /***/ 201:
 /*!*******************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/main.js?{"page":"pages%2Ftabbar%2Ftabbar-5%2Ftabbar-5"} ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0524/main.js?{"page":"pages%2Ftabbar%2Ftabbar-5%2Ftabbar-5"} ***!
   \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -23,7 +23,7 @@ createPage(_tabbar.default);
 
 /***/ 202:
 /*!**********************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/pages/tabbar/tabbar-5/tabbar-5.vue ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0524/pages/tabbar/tabbar-5/tabbar-5.vue ***!
   \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -66,7 +66,7 @@ component.options.__file = "pages/tabbar/tabbar-5/tabbar-5.vue"
 
 /***/ 203:
 /*!*****************************************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/pages/tabbar/tabbar-5/tabbar-5.vue?vue&type=template&id=6ca01612&scoped=true& ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0524/pages/tabbar/tabbar-5/tabbar-5.vue?vue&type=template&id=6ca01612&scoped=true& ***!
   \*****************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -88,7 +88,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ 204:
 /*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/pages/tabbar/tabbar-5/tabbar-5.vue?vue&type=template&id=6ca01612&scoped=true& ***!
+  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/yiqy/HBuilderProjects/睡眠app_gmx_0524/pages/tabbar/tabbar-5/tabbar-5.vue?vue&type=template&id=6ca01612&scoped=true& ***!
   \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -103,28 +103,28 @@ var components
 try {
   components = {
     uCellGroup: function () {
-      return Promise.all(/*! import() | components/uview-ui/components/u-cell-group/u-cell-group */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/uview-ui/components/u-cell-group/u-cell-group")]).then(__webpack_require__.bind(null, /*! @/components/uview-ui/components/u-cell-group/u-cell-group.vue */ 394))
+      return Promise.all(/*! import() | components/uview-ui/components/u-cell-group/u-cell-group */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/uview-ui/components/u-cell-group/u-cell-group")]).then(__webpack_require__.bind(null, /*! @/components/uview-ui/components/u-cell-group/u-cell-group.vue */ 402))
     },
     uCell: function () {
-      return Promise.all(/*! import() | components/uview-ui/components/u-cell/u-cell */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/uview-ui/components/u-cell/u-cell")]).then(__webpack_require__.bind(null, /*! @/components/uview-ui/components/u-cell/u-cell.vue */ 402))
+      return Promise.all(/*! import() | components/uview-ui/components/u-cell/u-cell */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/uview-ui/components/u-cell/u-cell")]).then(__webpack_require__.bind(null, /*! @/components/uview-ui/components/u-cell/u-cell.vue */ 410))
     },
     uModal: function () {
-      return Promise.all(/*! import() | components/uview-ui/components/u-modal/u-modal */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/uview-ui/components/u-modal/u-modal")]).then(__webpack_require__.bind(null, /*! @/components/uview-ui/components/u-modal/u-modal.vue */ 410))
+      return Promise.all(/*! import() | components/uview-ui/components/u-modal/u-modal */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/uview-ui/components/u-modal/u-modal")]).then(__webpack_require__.bind(null, /*! @/components/uview-ui/components/u-modal/u-modal.vue */ 418))
     },
     "u-Input": function () {
-      return Promise.all(/*! import() | components/uview-ui/components/u--input/u--input */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/uview-ui/components/u--input/u--input")]).then(__webpack_require__.bind(null, /*! @/components/uview-ui/components/u--input/u--input.vue */ 331))
+      return Promise.all(/*! import() | components/uview-ui/components/u--input/u--input */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/uview-ui/components/u--input/u--input")]).then(__webpack_require__.bind(null, /*! @/components/uview-ui/components/u--input/u--input.vue */ 339))
     },
     uNotify: function () {
-      return Promise.all(/*! import() | components/uview-ui/components/u-notify/u-notify */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/uview-ui/components/u-notify/u-notify")]).then(__webpack_require__.bind(null, /*! @/components/uview-ui/components/u-notify/u-notify.vue */ 418))
+      return Promise.all(/*! import() | components/uview-ui/components/u-notify/u-notify */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/uview-ui/components/u-notify/u-notify")]).then(__webpack_require__.bind(null, /*! @/components/uview-ui/components/u-notify/u-notify.vue */ 426))
     },
     uPopup: function () {
-      return Promise.all(/*! import() | components/uview-ui/components/u-popup/u-popup */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/uview-ui/components/u-popup/u-popup")]).then(__webpack_require__.bind(null, /*! @/components/uview-ui/components/u-popup/u-popup.vue */ 307))
+      return Promise.all(/*! import() | components/uview-ui/components/u-popup/u-popup */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/uview-ui/components/u-popup/u-popup")]).then(__webpack_require__.bind(null, /*! @/components/uview-ui/components/u-popup/u-popup.vue */ 315))
     },
     uIcon: function () {
-      return Promise.all(/*! import() | components/uview-ui/components/u-icon/u-icon */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/uview-ui/components/u-icon/u-icon")]).then(__webpack_require__.bind(null, /*! @/components/uview-ui/components/u-icon/u-icon.vue */ 315))
+      return Promise.all(/*! import() | components/uview-ui/components/u-icon/u-icon */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/uview-ui/components/u-icon/u-icon")]).then(__webpack_require__.bind(null, /*! @/components/uview-ui/components/u-icon/u-icon.vue */ 323))
     },
     uLoadingIcon: function () {
-      return Promise.all(/*! import() | components/uview-ui/components/u-loading-icon/u-loading-icon */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/uview-ui/components/u-loading-icon/u-loading-icon")]).then(__webpack_require__.bind(null, /*! @/components/uview-ui/components/u-loading-icon/u-loading-icon.vue */ 426))
+      return Promise.all(/*! import() | components/uview-ui/components/u-loading-icon/u-loading-icon */[__webpack_require__.e("common/vendor"), __webpack_require__.e("components/uview-ui/components/u-loading-icon/u-loading-icon")]).then(__webpack_require__.bind(null, /*! @/components/uview-ui/components/u-loading-icon/u-loading-icon.vue */ 434))
     },
   }
 } catch (e) {
@@ -176,7 +176,7 @@ render._withStripped = true
 
 /***/ 205:
 /*!***********************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/pages/tabbar/tabbar-5/tabbar-5.vue?vue&type=script&lang=js& ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0524/pages/tabbar/tabbar-5/tabbar-5.vue?vue&type=script&lang=js& ***!
   \***********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -192,7 +192,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ 206:
 /*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--13-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/pages/tabbar/tabbar-5/tabbar-5.vue?vue&type=script&lang=js& ***!
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--13-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/yiqy/HBuilderProjects/睡眠app_gmx_0524/pages/tabbar/tabbar-5/tabbar-5.vue?vue&type=script&lang=js& ***!
   \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -867,7 +867,7 @@ exports.default = _default;
 
 /***/ 207:
 /*!*******************************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/pages/tabbar/tabbar-5/tabbar-5.vue?vue&type=style&index=0&lang=css& ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0524/pages/tabbar/tabbar-5/tabbar-5.vue?vue&type=style&index=0&lang=css& ***!
   \*******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -883,7 +883,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ 208:
 /*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-1-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-2!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/pages/tabbar/tabbar-5/tabbar-5.vue?vue&type=style&index=0&lang=css& ***!
+  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-1-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-2!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/yiqy/HBuilderProjects/睡眠app_gmx_0524/pages/tabbar/tabbar-5/tabbar-5.vue?vue&type=style&index=0&lang=css& ***!
   \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -896,7 +896,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ 209:
 /*!*******************************************************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/pages/tabbar/tabbar-5/tabbar-5.vue?vue&type=style&index=1&id=6ca01612&scoped=true&lang=css& ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0524/pages/tabbar/tabbar-5/tabbar-5.vue?vue&type=style&index=1&id=6ca01612&scoped=true&lang=css& ***!
   \*******************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -912,7 +912,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ 210:
 /*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-1-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-2!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/pages/tabbar/tabbar-5/tabbar-5.vue?vue&type=style&index=1&id=6ca01612&scoped=true&lang=css& ***!
+  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-1-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-2!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/yiqy/HBuilderProjects/睡眠app_gmx_0524/pages/tabbar/tabbar-5/tabbar-5.vue?vue&type=style&index=1&id=6ca01612&scoped=true&lang=css& ***!
   \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {

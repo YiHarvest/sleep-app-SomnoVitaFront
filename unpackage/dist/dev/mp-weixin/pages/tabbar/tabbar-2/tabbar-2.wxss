@@ -906,15 +906,14 @@ page.data-v-23ec5197 {
   padding: 10rpx 0;
   box-shadow: 0 -2rpx 10rpx rgba(0, 0, 0, 0.1);
 }
-.tools-bar .tools-scroll.data-v-23ec5197 {
-  width: 100%;
-  white-space: nowrap;
-}
 .tools-bar .tools-container.data-v-23ec5197 {
-  display: inline-flex;
+  display: flex;
   padding: 0 20rpx;
   width: 100%;
   justify-content: center;
+  /* 默认居中显示按钮 */
+  flex-wrap: wrap;
+  /* 允许按钮换行 */
 }
 .tools-bar .tool-btn.data-v-23ec5197 {
   display: inline-block;
