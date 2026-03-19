@@ -1,26 +1,23 @@
 {
 	"pages": [
-				//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
-				{
-					"path": "pages/tabbar/tabbar-1/tabbar-1",
-					"style": {
-						"navigationBarTitleText": "睡眠监测"
-					}
-				},
+		{
+			"path": "pages/tabbar/tabbar-1/tabbar-1",
+			"style": {
+				"navigationBarTitleText": "睡眠监测"
+			}
+		},
 		{
 			"path": "pages/tabbar/tabbar-2/tabbar-2",
 			"style": {
 				"navigationBarTitleText": "AI对话"
 			}
 		},
-
 		{
 			"path": "custom-tab-bar/index",
 			"style": {
 				"navigationBarTitleText": "自定义TabBar"
 			}
 		},
-
 		{
 			"path": "pages/tabbar/tabbar-3/tabbar-3",
 			"style": {}
@@ -39,6 +36,12 @@
 		},
 		{
 			"path": "pages/tabbar/tabbar-6/tabbar-6"
+		},
+		{
+			"path": "pages/tabbar/tabbar-7/tabbar-7",
+			"style": {
+				"navigationBarTitleText": "扫一扫"
+			}
 		},
 		{
 			"path": "pages/tabbar-3-detial/tabbar-3-release/tabbar-3-release",
@@ -61,12 +64,12 @@
 		{
 			"path": "pages/tabbar-3-detial/tabbar-3-release/phone",
 			"style": {
-		 		"navigationBarTitleText": "联系方式"
-			 }
+				"navigationBarTitleText": "联系方式"
+			}
 		},
 		{
 			"path": "pages/tabbar-3-detial/tabbar-3-release/user",
-	    	"style": {
+			"style": {
 				"navigationBarTitleText": "个人信息"
 			}
 		},
@@ -95,10 +98,9 @@
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
-	}
-	,
+	},
 	"tabBar": {
-		"custom": true, // 开启自定义 Tab 栏
+		"custom": true,
 		"borderStyle": "white",
 		"backgroundColor": "#fff",
 		"color": "#C4C4C4",
@@ -110,7 +112,6 @@
 				"selectedIconPath": "static/img/tabbar/activejiance.png",
 				"text": "监测"
 			},
-				
 			{
 				"pagePath": "pages/tabbar/tabbar-4/tabbar-4",
 				"iconPath": "static/img/tabbar/history.png",
@@ -121,9 +122,14 @@
 				"pagePath": "pages/tabbar/tabbar-2/tabbar-2",
 				"iconPath": "static/img/tabbar/ai.png",
 				"selectedIconPath": "static/img/tabbar/activeai.png",
-				"text": "AI"
+				"text": "AI对话"
 			},
-		
+			{
+				"pagePath": "pages/tabbar/tabbar-7/tabbar-7",
+				"iconPath": "static/img/tabbar/history.png",
+				"selectedIconPath": "static/img/tabbar/activehistory.png",
+				"text": "扫一扫"
+			},
 			{
 				"pagePath": "pages/tabbar/tabbar-5/tabbar-5",
 				"iconPath": "static/img/tabbar/my.png",

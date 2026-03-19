@@ -80,50 +80,97 @@
 
     <!-- 工具栏 -->
     <view class="tools-bar" :style="{bottom: inputBoxHeight + 'px'}">
-      <scroll-view class="tools-scroll" scroll-x="true" show-scrollbar="false">
-        <!-- 主工具栏按钮 -->
-        <view v-if="!showCBTITools" class="tools-container">
-          <view 
-            class="tool-btn" 
-            :class="{active: activeToolBtn === 'PSQI'}"
-            @tap="selectToolBtn('PSQI')"
-          >PSQI</view>
-          <view 
-            class="tool-btn" 
-            :class="{active: activeToolBtn === 'CBTI'}"
-            @tap="selectToolBtn('CBTI')"
-          >CBTI</view>
+      <!-- 主工具栏按钮 -->
+      <view v-if="!showCBTITools && activeToolBtn !== 'PSQI'" class="tools-container main-tools-container">
+        <view 
+          class="tool-btn" 
+          :class="{active: activeToolBtn === 'ordinary'}"
+          @tap="selectToolBtn('ordinary')"
+        >普通对话</view>
+        <view 
+          class="tool-btn" 
+          :class="{active: activeToolBtn === 'PSQI'}"
+          @tap="selectToolBtn('PSQI')"
+        >PSQI</view>
+        <view 
+          class="tool-btn" 
+          :class="{active: activeToolBtn === 'CBTI'}"
+          @tap="selectToolBtn('CBTI')"
+        >CBTI</view>
+      </view>
+      
+      <!-- CBTI工具栏按钮 -->
+      <view v-if="showCBTITools" class="tools-container">
+        <view 
+          class="tool-btn" 
+          :class="{active: activeToolBtn === 'negative'}"
+          @tap="selectToolBtn('negative')"
+        >负性思维记录表</view>
+        <view 
+          class="tool-btn" 
+          :class="{active: activeToolBtn === 'cognitive'}"
+          @tap="selectToolBtn('cognitive')"
+        >获取认知重构建议</view>
+        <view 
+          class="tool-btn" 
+          :class="{active: activeToolBtn === 'exit'}"
+          @tap="exitCBTITools()"
+        >退出</view>
+      </view>
+      
+      <!-- PSQI工具栏按钮 - 显示开始问卷、重置和退出 -->
+      <view v-if="activeToolBtn === 'PSQI' && !showPSQIOptions && !psqiInProgress" class="tools-container main-tools-container">
+        <view 
+          class="tool-btn"
+          :class="{active: activePSQIOption === 'start'}"
+          @tap="startPSQIQuestionnaire()"
+        >开始问卷</view>
+        <view 
+          class="tool-btn"
+          :class="{active: activePSQIOption === 'reset'}"
+          @tap="resetPSQIQuestionnaire()"
+        >重置问卷</view>
+        <view 
+          class="tool-btn"
+          :class="{active: activePSQIOption === 'exit'}"
+          @tap="exitPSQIQuestionnaire()"
+        >退出</view>
+      </view>
+      
+      <!-- PSQI工具栏按钮 - 问卷进行中仅显示重置和退出 -->
+      <view v-if="activeToolBtn === 'PSQI' && !showPSQIOptions && psqiInProgress" class="tools-container main-tools-container">
+        <view 
+          class="tool-btn"
+          :class="{active: activePSQIOption === 'reset'}"
+          @tap="resetPSQIQuestionnaire()"
+        >重置问卷</view>
+        <view 
+          class="tool-btn"
+          :class="{active: activePSQIOption === 'exit'}"
+          @tap="exitPSQIQuestionnaire()"
+        >退出</view>
         </view>
         
-        <!-- CBTI工具栏按钮 -->
-        <view v-if="showCBTITools" class="tools-container">
-          <view 
-            class="tool-btn" 
-            :class="{active: activeToolBtn === 'negative'}"
-            @tap="selectToolBtn('negative')"
-          >负性思维记录表</view>
-          <view 
-            class="tool-btn" 
-            :class="{active: activeToolBtn === 'cognitive'}"
-            @tap="selectToolBtn('cognitive')"
-          >获取认知重构建议</view>
-          <view 
-            class="tool-btn" 
-            :class="{active: activeToolBtn === 'sleep'}"
-            @tap="selectToolBtn('sleep')"
-          >获取睡眠限制计划</view>
-          <view 
-            class="tool-btn" 
-            :class="{active: activeToolBtn === 'stimulus'}"
-            @tap="selectToolBtn('stimulus')"
-          >获取刺激控制计划</view>
-          <view 
-            class="tool-btn" 
-            :class="{active: activeToolBtn === 'exit'}"
-            @tap="exitCBTITools()"
-          >退出</view>
-        </view>
-      </scroll-view>
+        <!-- PSQI问卷选项按钮 - 显示选项、重置和退出 -->
+      <view v-if="showPSQIOptions && psqiCurrentQuestion && psqiCurrentQuestion.options" class="tools-container">
+        <view 
+          v-for="(option, index) in psqiCurrentQuestion.options" 
+          :key="index"
+          class="tool-btn"
+          :class="{active: activePSQIOption === option}"
+          @tap="selectPSQIOption(option)"
+        >{{ option }}</view>
+        <view 
+          class="tool-btn"
+          :class="{active: activePSQIOption === 'reset'}"
+          @tap="resetPSQIQuestionnaire()"
+        >重置问卷</view>
+        <view 
+          class="tool-btn"
+          :class="{active: activePSQIOption === 'exit'}"
+          @tap="exitPSQIQuestionnaire()"
+        >退出</view>
+      </view>
     </view>
     
     <!-- 底部输入栏 -->
@@ -250,7 +297,15 @@ export default {
       // 工具栏相关数据
       activeToolBtn: '',
       showCBTITools: false,
-      inputBoxHeight: 120 // 输入框底部距离，单位upx
+      inputBoxHeight: 120, // 输入框底部距离，单位upx
+      
+      // PSQI问卷相关数据
+      psqiUserId: null, // PSQI问卷用户ID
+      psqiInProgress: false, // 是否正在进行PSQI问卷
+      psqiCurrentQuestion: null, // 当前PSQI问题
+      showPSQIOptions: false, // 是否显示PSQI选项按钮
+      activePSQIOption: '', // 当前激活的PSQI选项
+      psqiCompletedQuestions: [] // 已完成的PSQI问题ID列表，用于确保按顺序完成
     };
   },
    onLoad(option) {
@@ -273,6 +328,7 @@ export default {
   mounted(){
     this.initRecord()
     this.getMsgList();
+    this.activeToolBtn = 'ordinary'; // 默认设置普通对话按钮为激活状态
     this.addWelcomeMessage(); // 添加欢迎消息
   },
   onShow() {
@@ -280,12 +336,18 @@ export default {
       this.userInfo = uni.getStorageSync('userInfo')
     }
     this.scrollTop = 9999999;
+    // 如果没有激活的按钮，默认设置普通对话按钮为激活状态
+    if (!this.activeToolBtn) {
+      this.activeToolBtn = 'ordinary';
+    }
     this.addWelcomeMessage(); // 添加欢迎消息
   },
   methods: {
     // 添加欢迎消息方法
     addWelcomeMessage() {
       // 创建欢迎消息
+      const welcomeContent = "您好，我是您的睡眠管家，有什么可以帮助您的吗？\n\n您可以使用以下功能：\n1. 普通对话按钮：切换到普通对话模式，可以直接提问任何问题\n2. PSQI按钮：开始匹兹堡睡眠质量问卷评估\n3. CBTI按钮：访问认知行为疗法工具，包括负性思维记录表和认知重构建议";
+      
       let msg = {
         type: "user",
         msg: {
@@ -293,14 +355,14 @@ export default {
           time: this.getCurrentTime(),
           type: "text",
           userinfo: { uid: 1, username: "管家", face: "/static/img/q.png" },
-          content: "您好，我是您的睡眠管家，有什么可以帮助您的吗？",
+          content: welcomeContent,
         },
       };
       
       // 检查消息列表是否为空，或者最后一条消息不是欢迎消息
       if (this.msgList.length === 0 || 
           (this.msgList.length > 0 && 
-           this.msgList[this.msgList.length - 1].msg.content !== "您好，我是您的睡眠管家，有什么可以帮助您的吗？")) {
+           this.msgList[this.msgList.length - 1].msg.content !== welcomeContent)) {
         // 发送欢迎消息
         this.screenMsg(msg);
       }
@@ -637,57 +699,210 @@ export default {
       };
       // 发送消息
       this.screenMsg(msg);
-      console.log("[this.screenMsg(msg)] 函数到这里");
+      
+      // 检查是否在PSQI问卷进行中
+      if (this.psqiInProgress && this.psqiUserId) {
+        // 将用户消息作为问卷回答处理
+        this.answerPSQIQuestion(content);
+        this.msgFlag = true; // 重置消息标志，允许用户继续发送消息
+        return; // 不调用AI接口
+      } else if (this.activeToolBtn === 'PSQI' && !this.psqiInProgress) {
+        // 如果PSQI按钮被激活但问卷未进行中，开始问卷
+        this.startPSQIQuestionnaire();
+        this.msgFlag = true; // 重置消息标志
+        return; // 不调用AI接口
+      }
 
+      // 正常AI对话流程
       this.getChatMsg(content);
     },
     padZero(num) {
             // 如果数字小于 10，在前面补 0
             return num.toString().padStart(2, '0');
     },
-    getChatMsg(msg) {
-      let messages = [
-        {
-          role: "system",
-          content: "You are a helpful assistant"
-        },
-        {
-          role: "user",
-          content: msg
+     // 解析Markdown表格为JSON数据
+     parseMarkdownTable(markdownText) {
+      // 分割表格行
+      const lines = markdownText.split('\n').filter(line => line.trim() !== '')
+
+      // 找到表头行和分隔行
+      let headerIndex = -1
+      let separatorIndex = -1
+
+      for (let i = 0; i < lines.length; i++) {
+        if (lines[i].includes('|')) {
+          if (headerIndex === -1) {
+            headerIndex = i
+          } else if (lines[i].replace(/[^|\-]/g, '') === lines[i] && separatorIndex === -1) {
+            separatorIndex = i
+          }
         }
-      ];
+      }
+
+      if (headerIndex === -1 || separatorIndex === -1) {
+        return []
+      }
+
+      // 解析表头
+      const headers = lines[headerIndex].split('|')
+        .map(h => h.trim())
+        .filter(h => h !== '')
+
+      // 解析数据行
+      const tableData = []
+      for (let i = separatorIndex + 1; i < lines.length; i++) {
+        if (lines[i].includes('|')) {
+          const rowData = lines[i].split('|')
+            .map(cell => cell.trim())
+            .filter(cell => cell !== '')
+
+          if (rowData.length >= 5) {
+            tableData.push({
+              event: rowData[0],
+              thought: rowData[1],
+              emotion: rowData[2],
+              distortion: rowData[3],
+              alternative: rowData[4]
+            })
+          }
+        }
+      }
+
+      return tableData
+    },
+    
+    // 检查文本是否包含Markdown表格
+    containsMarkdownTable(text) {
+      if (!text) return false;
+      
+      const lines = text.split('\n');
+      let hasTableHeader = false;
+      let hasTableSeparator = false;
+      
+      for (let i = 0; i < lines.length; i++) {
+        const line = lines[i].trim();
+        if (line.startsWith('|') && line.endsWith('|')) {
+          if (!hasTableHeader) {
+            hasTableHeader = true;
+          } else if (!hasTableSeparator && line.replace(/[^|\-]/g, '') === line) {
+            hasTableSeparator = true;
+            return true;
+          }
+        }
+      }
+      
+      return false;
+    },
+    
+    // 将Markdown表格转换为HTML表格
+    markdownTableToHtml(tableData) {
+      if (!tableData || tableData.length === 0) return '';
+      
+      // 添加带边框和样式的表格
+      let html = '<div class="markdown-table"><table style="border-collapse: collapse; width: 100%; border: 1px solid black;">';
+      
+      // 定义统一的单元格样式
+      const cellStyle = 'border: 1px solid black; padding: 5px; font-size: 1em;';
+      const headerStyle = 'border: 1px solid black; padding: 5px; font-size: 1em; font-weight: bold; background-color: #f2f2f2;';
+      
+      // 创建行式表头的表格
+      html += '<tbody>';
+      
+      // 添加事件行
+      html += '<tr>';
+      html += `<th style="${headerStyle}">事件</th>`;
+      tableData.forEach(row => {
+        html += `<td style="${cellStyle}">${row.event}</td>`;
+      });
+      html += '</tr>';
+      
+      // 添加自动思维行
+      html += '<tr>';
+      html += `<th style="${headerStyle}">自动思维</th>`;
+      tableData.forEach(row => {
+        html += `<td style="${cellStyle}">${row.thought}</td>`;
+      });
+      html += '</tr>';
+      
+      // 添加情绪反应行
+      html += '<tr>';
+      html += `<th style="${headerStyle}">情绪反应</th>`;
+      tableData.forEach(row => {
+        html += `<td style="${cellStyle}">${row.emotion}</td>`;
+      });
+      html += '</tr>';
+      
+      // 添加思维扭曲类型行
+      html += '<tr>';
+      html += `<th style="${headerStyle}">思维扭曲类型</th>`;
+      tableData.forEach(row => {
+        html += `<td style="${cellStyle}">${row.distortion}</td>`;
+      });
+      html += '</tr>';
+      
+      // 添加替代性思维行
+      html += '<tr>';
+      html += `<th style="${headerStyle}">替代性思维</th>`;
+      tableData.forEach(row => {
+        html += `<td style="${cellStyle}">${row.alternative}</td>`;
+      });
+      html += '</tr>';
+      
+      html += '</tbody>';
+      html += '</table></div>';
+      return html;
+    },
+    
+    getChatMsg(msg) {
+      // 这里你可以换成真实用户ID，或者根据需要动态生成
+      const user_id = "test_user_001";
 
       let postData = {
-        messages: messages,
-        model: "deepseek-chat",
-        frequency_penalty: 0,
-        max_tokens: 2048,
-        presence_penalty: 0,
-        response_format: { type: "text" },
-        stop: null,
-        stream: false,
-        stream_options: null,
-        temperature: 1,
-        top_p: 1,
-        tools: null,
-        tool_choice: "none",
-        logprobs: false,
-        top_logprobs: null
+        user_id: user_id,
+        message: msg
       };
-
+      
+      // 根据按钮状态动态切换API URL
+      let apiUrl = "https://isleepagent.com:444/cbti/ordinary_chat"; // 默认使用普通对话接口
+      
+      // 如果CBTI工具栏显示或者有活跃的CBTI工具按钮，使用CBTI对话接口
+      if (this.showCBTITools || this.activeToolBtn === 'negative' || this.activeToolBtn === 'cognitive' || this.activeToolBtn === 'CBTI') {
+        apiUrl = "https://isleepagent.com:444/cbti/cbti_chat";
+      }
+      // 如果PSQI按钮被激活，使用PSQI接口
+      else if (this.activeToolBtn === 'PSQI') {
+        apiUrl = "https://isleepagent.com:444/psqi/chat";
+      }
+      // 如果是普通对话按钮被激活，确保使用普通对话接口
+      else if (this.activeToolBtn === 'ordinary' || this.activeToolBtn === '') {
+        apiUrl = "https://isleepagent.com:444/cbti/ordinary_chat";
+      }
+       
       uni.request({
-        url: "https://api.deepseek.com/chat/completions",
+        url: apiUrl,
         data: JSON.stringify(postData),
         header: {
           "Content-Type": "application/json",
-          "Authorization": "Bearer sk-cc4f85d3ace049208d1c570e372e3050"  // 替换成你的实际Token
+          "Accept": "application/json"
         },
         method: "POST",
         success: (res) => {
           this.msgFlag = true;
           console.log(res);
-
-          const reply = res.data?.choices?.[0]?.message?.content || "无响应内容";
+         // 新接口的响应字段为 response
+          const reply = res.data?.response || "无响应内容";
+          
+          // 检查回复是否包含Markdown表格
+          if (this.containsMarkdownTable(reply)) {
+            // 解析表格数据
+            const tableData = this.parseMarkdownTable(reply);
+            
+            if (tableData.length > 0) {
+              // 创建包含表格的消息
+              const tableHtml = this.markdownTableToHtml(tableData);
+              const messageContent = '<div class="table-message"><h3 style="color:#4dabf7;margin-bottom:10px;text-align:center;">思维记录表</h3>' + tableHtml + '</div>';
+              
+          
           let msg = {
             type: "user",
             msg: {
@@ -695,7 +910,25 @@ export default {
               time: this.getCurrentTime(),
               type: "text",
               userinfo: { uid: 1, username: "管家", face: "/static/img/q.png" },
-              content: reply
+              content: messageContent,
+              isTable: true
+            }
+          };
+          this.screenMsg(msg);
+          return;
+            }
+          }
+          
+          // 普通文本消息
+          let msg = {
+            type: "user",
+            msg: {
+              id: this.generateRandomID(),
+              time: this.getCurrentTime(),
+              type: "text",
+              userinfo: { uid: 1, username: "管家", face: "/static/img/q.png" },
+              content: reply,
+              isTable: false
             }
           };
           this.screenMsg(msg);
@@ -903,29 +1136,55 @@ export default {
       // 如果选择了CBTI按钮，显示CBTI工具栏
       if (btnType === 'CBTI') {
         this.showCBTITools = true;
-        this.activeToolBtn = ''; // 清空选中状态
+        this.activeToolBtn = 'CBTI'; // 保持CBTI选中状态，以便API URL切换逻辑能正确工作
+      } 
+      // 如果选择了PSQI按钮，显示PSQI工具栏
+      else if (btnType === 'PSQI') {
+        // 设置PSQI为活跃按钮
+        this.activeToolBtn = 'PSQI';
+        // 确保PSQI不会使用CBTI的API
+        this.showCBTITools = false;
+        // 显示PSQI工具栏（不显示选项按钮）
+        this.showPSQIOptions = false;
+        // 添加提示消息，告知用户已切换到PSQI模式
+        let msg = {
+          type: "user",
+          msg: {
+            id: this.generateRandomID(),
+            time: this.getCurrentTime(),
+            type: "text",
+            userinfo: { uid: 1, username: "管家", face: "/static/img/q.png" },
+            content: "已切换到PSQI模式，您可以开始匹兹堡睡眠质量问卷评估。",
+          },
+        };
+        this.screenMsg(msg);
       } else {
         // 根据不同的按钮类型执行不同的操作
         switch (btnType) {
-          case 'PSQI':
-            // 发送PSQI相关消息
-            this.sendToolMessage('PSQI评估表');
+          case 'ordinary':
+            // 切换到普通对话模式
+            this.showCBTITools = false;
+            this.showPSQIOptions = false;
+            // 添加提示消息，告知用户已切换到普通对话模式
+            let msg = {
+              type: "user",
+              msg: {
+                id: this.generateRandomID(),
+                time: this.getCurrentTime(),
+                type: "text",
+                userinfo: { uid: 1, username: "管家", face: "/static/img/q.png" },
+                content: "已切换到普通对话模式，您可以直接提问任何问题。",
+              },
+            };
+            this.screenMsg(msg);
             break;
           case 'negative':
             // 发送负性思维记录表相关消息
-            this.sendToolMessage('负性思维记录表');
+            this.sendToolMessage('record');
             break;
           case 'cognitive':
             // 发送认知重构建议相关消息
-            this.sendToolMessage('获取认知重构建议');
-            break;
-          case 'sleep':
-            // 发送睡眠限制计划相关消息
-            this.sendToolMessage('获取睡眠限制计划');
-            break;
-          case 'stimulus':
-            // 发送刺激控制计划相关消息
-            this.sendToolMessage('获取刺激控制计划');
+            this.sendToolMessage('restructure');
             break;
         }
       }
@@ -934,15 +1193,364 @@ export default {
     // 退出CBTI工具栏
     exitCBTITools() {
       this.showCBTITools = false;
-      this.activeToolBtn = ''; // 清空选中状态
+      this.activeToolBtn = 'ordinary'; // 设置为普通对话模式
+      
+      // 添加提示消息，告知用户已切换回普通对话模式
+      let msg = {
+        type: "user",
+        msg: {
+          id: this.generateRandomID(),
+          time: this.getCurrentTime(),
+          type: "text",
+          userinfo: { uid: 1, username: "管家", face: "/static/img/q.png" },
+          content: "已退出CBTI工具，切换回普通对话模式。",
+        },
+      };
+      this.screenMsg(msg);
     },
     
     // 发送工具相关消息
     sendToolMessage(toolType) {
+      // 设置当前活跃的工具按钮
+      this.activeToolBtn = toolType;
+      
       // 构建消息内容
-      const content = `请提供${toolType}`;
+      const content = `${toolType}`;
       // 发送消息
       this.sendMsg(content);
+    },
+    
+    // PSQI问卷相关方法
+    // 开始PSQI问卷
+    startPSQIQuestionnaire() {
+      // 设置开始按钮为激活状态
+      this.activePSQIOption = 'start';
+      
+      // 获取用户ID，如果没有则使用默认值
+      const userId = this.userInfo.userId || 'default_user';
+      
+      // 重置PSQI状态
+      this.resetPSQIState();
+      
+      // 设置问卷进行中状态
+      this.psqiInProgress = true;
+      
+      // 确保PSQI按钮被激活
+      this.activeToolBtn = 'PSQI';
+      
+      // 发送开始问卷的系统消息
+      let startMsg = {
+        type: "user",
+        msg: {
+          id: this.generateRandomID(),
+          time: this.getCurrentTime(),
+          type: "text",
+          userinfo: { uid: 1, username: "管家", face: "/static/img/q.png" },
+          content: "开始匹兹堡睡眠质量问卷(PSQI)评估，请回答以下问题：",
+        },
+      };
+      this.screenMsg(startMsg);
+      
+      // 调用开始问卷接口
+      uni.request({
+        url: "https://isleepagent.com:444/psqi/start_questionnaire",
+        method: "POST",
+        data: { user_id: userId },
+        header: { "Content-Type": "application/json" },
+        success: (res) => {
+          if (res.data.status === "success") {
+            // 保存用户ID和当前问题
+            this.psqiUserId = res.data.user_id;
+            this.psqiCurrentQuestion = res.data.question;
+            
+            // 初始化已完成问题列表
+            this.psqiCompletedQuestions = [];
+            
+            // 检查是否是第5-18个问题，如果是则显示选项按钮
+            if (this.psqiCurrentQuestion && this.psqiCurrentQuestion.id >= 5 && this.psqiCurrentQuestion.id <= 18) {
+              this.showPSQIOptions = true;
+            } else {
+              this.showPSQIOptions = false;
+            }
+            
+            // 显示第一个问题
+            this.showPSQIQuestion(res.data.question);
+          } else {
+            // 显示错误消息
+            this.showErrorMessage("问卷启动失败，请稍后再试");
+            this.resetPSQIState(); // 重置问卷状态
+          }
+        },
+        fail: (err) => {
+          console.error("问卷请求失败:", err);
+          this.showErrorMessage("问卷请求失败，请稍后再试");
+          this.resetPSQIState(); // 重置问卷状态
+        }
+      });
+    },
+    
+    // 显示PSQI问题
+    showPSQIQuestion(question) {
+      if (!question) return;
+      
+      // 构建问题消息
+      let questionText = question.question;
+      
+      // 如果有选项，添加到问题中
+      if (question.type === "choice" && question.options && question.options.length > 0) {
+        questionText += "\n选项: " + question.options.join("、");
+      }
+      
+      let questionMsg = {
+        type: "user",
+        msg: {
+          id: this.generateRandomID(),
+          time: this.getCurrentTime(),
+          type: "text",
+          userinfo: { uid: 1, username: "管家", face: "/static/img/q.png" },
+          content: questionText,
+        },
+      };
+      
+      this.screenMsg(questionMsg);
+    },
+    
+    // 回答PSQI问题
+    answerPSQIQuestion(answer) {
+      if (!this.psqiUserId || !this.psqiInProgress) return;
+      
+      // 检查当前问题是否存在
+      if (!this.psqiCurrentQuestion) {
+        this.showErrorMessage("当前没有活跃的问题，请重新开始问卷");
+        return;
+      }
+      
+      // 获取当前问题ID
+      const currentQuestionId = this.psqiCurrentQuestion.id;
+      
+      // 检查问题是否按顺序回答
+      if (currentQuestionId > 1) {
+        // 检查前一个问题是否已完成
+        const previousQuestionId = currentQuestionId - 1;
+        if (!this.psqiCompletedQuestions.includes(previousQuestionId)) {
+          this.showErrorMessage(`请先完成问题 ${previousQuestionId}`); 
+          return;
+        }
+      }
+      
+      // 调用回答问题接口
+      uni.request({
+        url: "https://isleepagent.com:444/psqi/answer_question",
+        method: "POST",
+        data: { 
+          user_id: this.psqiUserId,
+          answer: answer
+        },
+        header: { "Content-Type": "application/json" },
+        success: (res) => {
+          if (res.data.status === "success") {
+            // 将当前问题ID添加到已完成问题列表
+            if (!this.psqiCompletedQuestions.includes(currentQuestionId)) {
+              this.psqiCompletedQuestions.push(currentQuestionId);
+            }
+            
+            // 更新当前问题
+            this.psqiCurrentQuestion = res.data.question;
+            
+            // 重置选项激活状态
+            this.activePSQIOption = '';
+            
+            // 检查是否是第5-18个问题，如果是则显示选项按钮
+            if (this.psqiCurrentQuestion && this.psqiCurrentQuestion.id >= 5 && this.psqiCurrentQuestion.id <= 18) {
+              this.showPSQIOptions = true;
+            } else {
+              this.showPSQIOptions = false;
+            }
+            
+            // 显示下一个问题
+            this.showPSQIQuestion(res.data.question);
+          } else if (res.data.status === "completed") {
+            // 问卷完成，显示分析结果
+            this.showPSQIAnalysis(res.data.analysis);
+            // 重置问卷状态
+            this.resetPSQIState();
+          } else {
+            // 显示错误消息
+            this.showErrorMessage("回答处理失败，请稍后再试");
+            // 重置问卷状态
+            this.resetPSQIState();
+          }
+        },
+        fail: (err) => {
+          console.error("回答请求失败:", err);
+          this.showErrorMessage("回答请求失败，请稍后再试");
+          // 重置问卷状态
+          this.resetPSQIState();
+        }
+      });
+    },
+    
+    // 选择PSQI问卷选项
+    selectPSQIOption(option) {
+      // 设置当前激活的选项
+      this.activePSQIOption = option;
+      
+      // 将选项作为回答发送
+      this.answerPSQIQuestion(option);
+    },
+    
+    // 退出PSQI问卷
+    exitPSQIQuestionnaire() {
+      // 设置退出按钮为激活状态
+      this.activePSQIOption = 'exit';
+      
+      // 发送退出消息
+      let exitMsg = {
+        type: "user",
+        msg: {
+          id: this.generateRandomID(),
+          time: this.getCurrentTime(),
+          type: "text",
+          userinfo: { uid: 1, username: "管家", face: "/static/img/q.png" },
+          content: "已退出PSQI问卷，切换到普通对话模式。",
+        },
+      };
+      this.screenMsg(exitMsg);
+      
+      // 短暂延迟以便用户看到按钮激活状态
+      setTimeout(() => {
+        // 重置PSQI状态
+        this.resetPSQIState();
+        
+        // 切换到普通对话模式
+        this.activeToolBtn = 'ordinary';
+        this.showPSQIOptions = false;
+        
+        // 添加提示消息，告知用户已切换回普通对话模式
+        let msg = {
+          type: "user",
+          msg: {
+            id: this.generateRandomID(),
+            time: this.getCurrentTime(),
+            type: "text",
+            userinfo: { uid: 1, username: "管家", face: "/static/img/q.png" },
+            content: "已切换到普通对话模式，您可以直接提问任何问题。",
+          },
+        };
+        this.screenMsg(msg);
+      }, 300);
+    },
+    
+    // 重置PSQI问卷
+    resetPSQIQuestionnaire() {
+      // 设置重置按钮为激活状态
+      this.activePSQIOption = 'reset';
+      
+      // 获取用户ID，如果没有则使用默认值
+      const userId = this.userInfo.userId || 'default_user';
+      
+      // 调用重置问卷接口
+      uni.request({
+        url: "https://isleepagent.com:444/psqi/reset_questionnaire",
+        method: "POST",
+        data: { user_id: userId },
+        header: { "Content-Type": "application/json" },
+        success: (res) => {
+          if (res.data.status === "success") {
+            // 重置PSQI状态
+            this.resetPSQIState();
+            
+            // 发送重置成功消息
+            let resetMsg = {
+              type: "user",
+              msg: {
+                id: this.generateRandomID(),
+                time: this.getCurrentTime(),
+                type: "text",
+                userinfo: { uid: 1, username: "管家", face: "/static/img/q.png" },
+                content: "PSQI问卷已重置，您可以重新开始问卷。",
+              },
+            };
+            this.screenMsg(resetMsg);
+            
+            // 重新开始问卷
+            this.startPSQIQuestionnaire();
+          } else {
+            // 显示错误消息
+            this.showErrorMessage("问卷重置失败，请稍后再试");
+            this.activePSQIOption = ''; // 重置按钮状态
+          }
+        },
+        fail: (err) => {
+          console.error("重置问卷请求失败:", err);
+          this.showErrorMessage("重置问卷请求失败，请稍后再试");
+          this.activePSQIOption = ''; // 重置按钮状态
+        }
+      });
+    },
+    
+    // 重置PSQI状态
+    resetPSQIState() {
+      this.psqiInProgress = false;
+      this.psqiUserId = null;
+      this.psqiCurrentQuestion = null;
+      this.showPSQIOptions = false;
+      this.activePSQIOption = '';
+      this.psqiCompletedQuestions = [];
+    },
+    
+    // 显示PSQI分析结果
+    showPSQIAnalysis(analysis) {
+      if (!analysis) return;
+      
+      // 构建分析结果消息
+      let analysisMsg = {
+        type: "user",
+        msg: {
+          id: this.generateRandomID(),
+          time: this.getCurrentTime(),
+          type: "text",
+          userinfo: { uid: 1, username: "管家", face: "/static/img/q.png" },
+          content: "匹兹堡睡眠质量问卷(PSQI)评估结果:\n\n" + analysis,
+        },
+      };
+      
+      this.screenMsg(analysisMsg);
+      
+      // 重置PSQI状态
+      this.resetPSQIState();
+      
+      // 发送完成消息
+      let completeMsg = {
+        type: "user",
+        msg: {
+          id: this.generateRandomID(),
+          time: this.getCurrentTime(),
+          type: "text",
+          userinfo: { uid: 1, username: "管家", face: "/static/img/q.png" },
+          content: "PSQI评估已完成，如果您有任何问题，请随时咨询。",
+        },
+      };
+      
+      setTimeout(() => {
+        this.screenMsg(completeMsg);
+      }, 1000); // 延迟1秒显示完成消息
+    },
+    
+    // 显示错误消息
+    showErrorMessage(message) {
+      let errorMsg = {
+        type: "user",
+        msg: {
+          id: this.generateRandomID(),
+          time: this.getCurrentTime(),
+          type: "text",
+          userinfo: { uid: 1, username: "管家", face: "/static/img/q.png" },
+          content: message,
+        },
+      };
+      
+      this.screenMsg(errorMsg);
     },
   },
 };

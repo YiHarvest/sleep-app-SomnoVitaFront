@@ -234,6 +234,19 @@
           ></view>
         </view>
         <echarts ref="echarts"></echarts>
+        <!-- 环境数据卡片区 start -->
+        <view class="env-cards-row">
+          <view class="env-card" v-for="item in envData" :key="item.title">
+            <view class="env-card-header">
+              <image :src="item.icon" class="env-card-icon" mode="aspectFit"/>
+              <text class="env-card-title">{{ item.title }}</text>
+            </view>
+            <view class="env-card-value-row">
+              <text class="env-card-value">{{ item.value }}</text>
+              <text class="env-card-unit">{{ item.unit }}</text>
+            </view>
+          </view>
+        </view>
       </view>
     </view>
   </view>
@@ -275,7 +288,20 @@ export default {
       },
       deviceList:[],
       current:{},
-      showPopup:false
+      showPopup:false,
+      envIcons: [
+        { icon: '/static/img/pm2.5.png', text: 'PM2.5' },
+        { icon: '/static/img/wd.png', text: '温度' },
+        { icon: '/static/img/co2.png', text: 'CO₂' },
+        { icon: '/static/img/sd.png', text: '光照' },
+        { icon: '/static/img/sd.png', text: '湿度' }
+      ],
+      envData: [
+        { icon: '/static/img/pm2.5.png', title: 'PM2.5', value: 25, unit: 'μg/m³' },
+        { icon: '/static/img/wd.png', title: '温度', value: 25.9, unit: '℃' },
+        { icon: '/static/img/co2.png', title: 'CO₂', value: 400, unit: 'ppm' },
+        { icon: '/static/img/sd.png', title: '湿度', value: 30, unit: '%RH' }
+      ],
     };
   },
   created(){
@@ -1423,5 +1449,79 @@ export default {
   background: rgba(20,28,40,0.92) !important;
   z-index: 99999 !important;
   box-shadow: none !important;
+}
+
+.env-decoration-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 12rpx 0 0 12rpx;
+}
+.env-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 28rpx;
+}
+.env-icon {
+  width: 44rpx;
+  height: 44rpx;
+  margin-bottom: 4rpx;
+  filter: drop-shadow(0 0 8rpx #3a6aff88);
+}
+.env-label {
+  font-size: 18rpx;
+  color: #b6e0ff;
+  opacity: 0.85;
+}
+.env-cards-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 24rpx;
+  margin: 32rpx 0 0 0;
+}
+.env-card {
+  background: linear-gradient(135deg, #232b3b 60%, #1a2233 100%);
+  border-radius: 22rpx;
+  box-shadow: 0 4px 18rpx #3a6aff22;
+  width: 22vw;
+  min-width: 130rpx;
+  padding: 22rpx 0 18rpx 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: box-shadow 0.2s;
+}
+.env-card:hover {
+  box-shadow: 0 8px 32rpx #3a6aff55;
+}
+.env-card-icon {
+  width: 44rpx;
+  height: 44rpx;
+  margin-bottom: 8rpx;
+  filter: drop-shadow(0 0 8rpx #3a6aff88);
+}
+.env-card-title {
+  font-size: 20rpx;
+  color: #b6e0ff;
+  font-weight: 500;
+  margin-bottom: 6rpx;
+}
+.env-card-value-row {
+  display: flex;
+  align-items: baseline;
+  margin-top: 2rpx;
+}
+.env-card-value {
+  font-size: 36rpx;
+  color: #fff;
+  font-weight: bold;
+  margin-right: 4rpx;
+}
+.env-card-unit {
+  font-size: 18rpx;
+  color: #b6e0ff;
+  opacity: 0.85;
 }
 </style>

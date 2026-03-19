@@ -2,7 +2,7 @@
 
 /***/ 167:
 /*!*******************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/main.js?{"page":"pages%2Ftabbar%2Ftabbar-2%2Ftabbar-2"} ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0524/main.js?{"page":"pages%2Ftabbar%2Ftabbar-2%2Ftabbar-2"} ***!
   \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -23,7 +23,7 @@ createPage(_tabbar.default);
 
 /***/ 168:
 /*!**********************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/pages/tabbar/tabbar-2/tabbar-2.vue ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0524/pages/tabbar/tabbar-2/tabbar-2.vue ***!
   \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -64,7 +64,7 @@ component.options.__file = "pages/tabbar/tabbar-2/tabbar-2.vue"
 
 /***/ 169:
 /*!*****************************************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/pages/tabbar/tabbar-2/tabbar-2.vue?vue&type=template&id=23ec5197&scoped=true& ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0524/pages/tabbar/tabbar-2/tabbar-2.vue?vue&type=template&id=23ec5197&scoped=true& ***!
   \*****************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -86,7 +86,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ 170:
 /*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/pages/tabbar/tabbar-2/tabbar-2.vue?vue&type=template&id=23ec5197&scoped=true& ***!
+  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-uni-app-loader/page-meta.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/yiqy/HBuilderProjects/睡眠app_gmx_0524/pages/tabbar/tabbar-2/tabbar-2.vue?vue&type=template&id=23ec5197&scoped=true& ***!
   \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns, recyclableRender, components */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -113,7 +113,7 @@ render._withStripped = true
 
 /***/ 171:
 /*!***********************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/pages/tabbar/tabbar-2/tabbar-2.vue?vue&type=script&lang=js& ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0524/pages/tabbar/tabbar-2/tabbar-2.vue?vue&type=script&lang=js& ***!
   \***********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -129,7 +129,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ 172:
 /*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--13-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/pages/tabbar/tabbar-2/tabbar-2.vue?vue&type=script&lang=js& ***!
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--13-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/yiqy/HBuilderProjects/睡眠app_gmx_0524/pages/tabbar/tabbar-2/tabbar-2.vue?vue&type=script&lang=js& ***!
   \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -144,6 +144,53 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 var _regenerator = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/regenerator */ 55));
 var _asyncToGenerator2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/asyncToGenerator */ 57));
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -397,7 +444,21 @@ var _default = {
       // 工具栏相关数据
       activeToolBtn: '',
       showCBTITools: false,
-      inputBoxHeight: 120 // 输入框底部距离，单位upx
+      inputBoxHeight: 120,
+      // 输入框底部距离，单位upx
+
+      // PSQI问卷相关数据
+      psqiUserId: null,
+      // PSQI问卷用户ID
+      psqiInProgress: false,
+      // 是否正在进行PSQI问卷
+      psqiCurrentQuestion: null,
+      // 当前PSQI问题
+      showPSQIOptions: false,
+      // 是否显示PSQI选项按钮
+      activePSQIOption: '',
+      // 当前激活的PSQI选项
+      psqiCompletedQuestions: [] // 已完成的PSQI问题ID列表，用于确保按顺序完成
     };
   },
   onLoad: function onLoad(option) {
@@ -419,6 +480,7 @@ var _default = {
   mounted: function mounted() {
     this.initRecord();
     this.getMsgList();
+    this.activeToolBtn = 'ordinary'; // 默认设置普通对话按钮为激活状态
     this.addWelcomeMessage(); // 添加欢迎消息
   },
   onShow: function onShow() {
@@ -426,6 +488,10 @@ var _default = {
       this.userInfo = uni.getStorageSync('userInfo');
     }
     this.scrollTop = 9999999;
+    // 如果没有激活的按钮，默认设置普通对话按钮为激活状态
+    if (!this.activeToolBtn) {
+      this.activeToolBtn = 'ordinary';
+    }
     this.addWelcomeMessage(); // 添加欢迎消息
   },
 
@@ -433,6 +499,7 @@ var _default = {
     // 添加欢迎消息方法
     addWelcomeMessage: function addWelcomeMessage() {
       // 创建欢迎消息
+      var welcomeContent = "您好，我是您的睡眠管家，有什么可以帮助您的吗？\n\n您可以使用以下功能：\n1. 普通对话按钮：切换到普通对话模式，可以直接提问任何问题\n2. PSQI按钮：开始匹兹堡睡眠质量问卷评估\n3. CBTI按钮：访问认知行为疗法工具，包括负性思维记录表和认知重构建议";
       var msg = {
         type: "user",
         msg: {
@@ -444,12 +511,12 @@ var _default = {
             username: "管家",
             face: "/static/img/q.png"
           },
-          content: "您好，我是您的睡眠管家，有什么可以帮助您的吗？"
+          content: welcomeContent
         }
       };
 
       // 检查消息列表是否为空，或者最后一条消息不是欢迎消息
-      if (this.msgList.length === 0 || this.msgList.length > 0 && this.msgList[this.msgList.length - 1].msg.content !== "您好，我是您的睡眠管家，有什么可以帮助您的吗？") {
+      if (this.msgList.length === 0 || this.msgList.length > 0 && this.msgList[this.msgList.length - 1].msg.content !== welcomeContent) {
         // 发送欢迎消息
         this.screenMsg(msg);
       }
@@ -862,55 +929,223 @@ var _default = {
       };
       // 发送消息
       this.screenMsg(msg);
-      console.log("[this.screenMsg(msg)] 函数到这里");
+
+      // 检查是否在PSQI问卷进行中
+      if (this.psqiInProgress && this.psqiUserId) {
+        // 将用户消息作为问卷回答处理
+        this.answerPSQIQuestion(content);
+        this.msgFlag = true; // 重置消息标志，允许用户继续发送消息
+        return; // 不调用AI接口
+      } else if (this.activeToolBtn === 'PSQI' && !this.psqiInProgress) {
+        // 如果PSQI按钮被激活但问卷未进行中，开始问卷
+        this.startPSQIQuestionnaire();
+        this.msgFlag = true; // 重置消息标志
+        return; // 不调用AI接口
+      }
+
+      // 正常AI对话流程
       this.getChatMsg(content);
     },
     padZero: function padZero(num) {
       // 如果数字小于 10，在前面补 0
       return num.toString().padStart(2, '0');
     },
+    // 解析Markdown表格为JSON数据
+    parseMarkdownTable: function parseMarkdownTable(markdownText) {
+      // 分割表格行
+      var lines = markdownText.split('\n').filter(function (line) {
+        return line.trim() !== '';
+      });
+
+      // 找到表头行和分隔行
+      var headerIndex = -1;
+      var separatorIndex = -1;
+      for (var i = 0; i < lines.length; i++) {
+        if (lines[i].includes('|')) {
+          if (headerIndex === -1) {
+            headerIndex = i;
+          } else if (lines[i].replace(/[^|\-]/g, '') === lines[i] && separatorIndex === -1) {
+            separatorIndex = i;
+          }
+        }
+      }
+      if (headerIndex === -1 || separatorIndex === -1) {
+        return [];
+      }
+
+      // 解析表头
+      var headers = lines[headerIndex].split('|').map(function (h) {
+        return h.trim();
+      }).filter(function (h) {
+        return h !== '';
+      });
+
+      // 解析数据行
+      var tableData = [];
+      for (var _i = separatorIndex + 1; _i < lines.length; _i++) {
+        if (lines[_i].includes('|')) {
+          var rowData = lines[_i].split('|').map(function (cell) {
+            return cell.trim();
+          }).filter(function (cell) {
+            return cell !== '';
+          });
+          if (rowData.length >= 5) {
+            tableData.push({
+              event: rowData[0],
+              thought: rowData[1],
+              emotion: rowData[2],
+              distortion: rowData[3],
+              alternative: rowData[4]
+            });
+          }
+        }
+      }
+      return tableData;
+    },
+    // 检查文本是否包含Markdown表格
+    containsMarkdownTable: function containsMarkdownTable(text) {
+      if (!text) return false;
+      var lines = text.split('\n');
+      var hasTableHeader = false;
+      var hasTableSeparator = false;
+      for (var i = 0; i < lines.length; i++) {
+        var line = lines[i].trim();
+        if (line.startsWith('|') && line.endsWith('|')) {
+          if (!hasTableHeader) {
+            hasTableHeader = true;
+          } else if (!hasTableSeparator && line.replace(/[^|\-]/g, '') === line) {
+            hasTableSeparator = true;
+            return true;
+          }
+        }
+      }
+      return false;
+    },
+    // 将Markdown表格转换为HTML表格
+    markdownTableToHtml: function markdownTableToHtml(tableData) {
+      if (!tableData || tableData.length === 0) return '';
+
+      // 添加带边框和样式的表格
+      var html = '<div class="markdown-table"><table style="border-collapse: collapse; width: 100%; border: 1px solid black;">';
+
+      // 定义统一的单元格样式
+      var cellStyle = 'border: 1px solid black; padding: 5px; font-size: 1em;';
+      var headerStyle = 'border: 1px solid black; padding: 5px; font-size: 1em; font-weight: bold; background-color: #f2f2f2;';
+
+      // 创建行式表头的表格
+      html += '<tbody>';
+
+      // 添加事件行
+      html += '<tr>';
+      html += "<th style=\"".concat(headerStyle, "\">\u4E8B\u4EF6</th>");
+      tableData.forEach(function (row) {
+        html += "<td style=\"".concat(cellStyle, "\">").concat(row.event, "</td>");
+      });
+      html += '</tr>';
+
+      // 添加自动思维行
+      html += '<tr>';
+      html += "<th style=\"".concat(headerStyle, "\">\u81EA\u52A8\u601D\u7EF4</th>");
+      tableData.forEach(function (row) {
+        html += "<td style=\"".concat(cellStyle, "\">").concat(row.thought, "</td>");
+      });
+      html += '</tr>';
+
+      // 添加情绪反应行
+      html += '<tr>';
+      html += "<th style=\"".concat(headerStyle, "\">\u60C5\u7EEA\u53CD\u5E94</th>");
+      tableData.forEach(function (row) {
+        html += "<td style=\"".concat(cellStyle, "\">").concat(row.emotion, "</td>");
+      });
+      html += '</tr>';
+
+      // 添加思维扭曲类型行
+      html += '<tr>';
+      html += "<th style=\"".concat(headerStyle, "\">\u601D\u7EF4\u626D\u66F2\u7C7B\u578B</th>");
+      tableData.forEach(function (row) {
+        html += "<td style=\"".concat(cellStyle, "\">").concat(row.distortion, "</td>");
+      });
+      html += '</tr>';
+
+      // 添加替代性思维行
+      html += '<tr>';
+      html += "<th style=\"".concat(headerStyle, "\">\u66FF\u4EE3\u6027\u601D\u7EF4</th>");
+      tableData.forEach(function (row) {
+        html += "<td style=\"".concat(cellStyle, "\">").concat(row.alternative, "</td>");
+      });
+      html += '</tr>';
+      html += '</tbody>';
+      html += '</table></div>';
+      return html;
+    },
     getChatMsg: function getChatMsg(msg) {
       var _this9 = this;
-      var messages = [{
-        role: "system",
-        content: "You are a helpful assistant"
-      }, {
-        role: "user",
-        content: msg
-      }];
+      // 这里你可以换成真实用户ID，或者根据需要动态生成
+      var user_id = "test_user_001";
       var postData = {
-        messages: messages,
-        model: "deepseek-chat",
-        frequency_penalty: 0,
-        max_tokens: 2048,
-        presence_penalty: 0,
-        response_format: {
-          type: "text"
-        },
-        stop: null,
-        stream: false,
-        stream_options: null,
-        temperature: 1,
-        top_p: 1,
-        tools: null,
-        tool_choice: "none",
-        logprobs: false,
-        top_logprobs: null
+        user_id: user_id,
+        message: msg
       };
+
+      // 根据按钮状态动态切换API URL
+      var apiUrl = "https://isleepagent.com:444/cbti/ordinary_chat"; // 默认使用普通对话接口
+
+      // 如果CBTI工具栏显示或者有活跃的CBTI工具按钮，使用CBTI对话接口
+      if (this.showCBTITools || this.activeToolBtn === 'negative' || this.activeToolBtn === 'cognitive' || this.activeToolBtn === 'CBTI') {
+        apiUrl = "https://isleepagent.com:444/cbti/cbti_chat";
+      }
+      // 如果PSQI按钮被激活，使用PSQI接口
+      else if (this.activeToolBtn === 'PSQI') {
+        apiUrl = "https://isleepagent.com:444/psqi/chat";
+      }
+      // 如果是普通对话按钮被激活，确保使用普通对话接口
+      else if (this.activeToolBtn === 'ordinary' || this.activeToolBtn === '') {
+        apiUrl = "https://isleepagent.com:444/cbti/ordinary_chat";
+      }
       uni.request({
-        url: "https://api.deepseek.com/chat/completions",
+        url: apiUrl,
         data: JSON.stringify(postData),
         header: {
           "Content-Type": "application/json",
-          "Authorization": "Bearer sk-cc4f85d3ace049208d1c570e372e3050" // 替换成你的实际Token
+          "Accept": "application/json"
         },
-
         method: "POST",
         success: function success(res) {
-          var _res$data, _res$data$choices, _res$data$choices$, _res$data$choices$$me;
+          var _res$data;
           _this9.msgFlag = true;
           console.log(res);
-          var reply = ((_res$data = res.data) === null || _res$data === void 0 ? void 0 : (_res$data$choices = _res$data.choices) === null || _res$data$choices === void 0 ? void 0 : (_res$data$choices$ = _res$data$choices[0]) === null || _res$data$choices$ === void 0 ? void 0 : (_res$data$choices$$me = _res$data$choices$.message) === null || _res$data$choices$$me === void 0 ? void 0 : _res$data$choices$$me.content) || "无响应内容";
+          // 新接口的响应字段为 response
+          var reply = ((_res$data = res.data) === null || _res$data === void 0 ? void 0 : _res$data.response) || "无响应内容";
+
+          // 检查回复是否包含Markdown表格
+          if (_this9.containsMarkdownTable(reply)) {
+            // 解析表格数据
+            var tableData = _this9.parseMarkdownTable(reply);
+            if (tableData.length > 0) {
+              // 创建包含表格的消息
+              var tableHtml = _this9.markdownTableToHtml(tableData);
+              var messageContent = '<div class="table-message"><h3 style="color:#4dabf7;margin-bottom:10px;text-align:center;">思维记录表</h3>' + tableHtml + '</div>';
+              var _msg = {
+                type: "user",
+                msg: {
+                  id: _this9.generateRandomID(),
+                  time: _this9.getCurrentTime(),
+                  type: "text",
+                  userinfo: {
+                    uid: 1,
+                    username: "管家",
+                    face: "/static/img/q.png"
+                  },
+                  content: messageContent,
+                  isTable: true
+                }
+              };
+              _this9.screenMsg(_msg);
+              return;
+            }
+          }
+
+          // 普通文本消息
           var msg = {
             type: "user",
             msg: {
@@ -922,7 +1157,8 @@ var _default = {
                 username: "管家",
                 face: "/static/img/q.png"
               },
-              content: reply
+              content: reply,
+              isTable: false
             }
           };
           _this9.screenMsg(msg);
@@ -1140,29 +1376,63 @@ var _default = {
       // 如果选择了CBTI按钮，显示CBTI工具栏
       if (btnType === 'CBTI') {
         this.showCBTITools = true;
-        this.activeToolBtn = ''; // 清空选中状态
+        this.activeToolBtn = 'CBTI'; // 保持CBTI选中状态，以便API URL切换逻辑能正确工作
+      }
+      // 如果选择了PSQI按钮，显示PSQI工具栏
+      else if (btnType === 'PSQI') {
+        // 设置PSQI为活跃按钮
+        this.activeToolBtn = 'PSQI';
+        // 确保PSQI不会使用CBTI的API
+        this.showCBTITools = false;
+        // 显示PSQI工具栏（不显示选项按钮）
+        this.showPSQIOptions = false;
+        // 添加提示消息，告知用户已切换到PSQI模式
+        var msg = {
+          type: "user",
+          msg: {
+            id: this.generateRandomID(),
+            time: this.getCurrentTime(),
+            type: "text",
+            userinfo: {
+              uid: 1,
+              username: "管家",
+              face: "/static/img/q.png"
+            },
+            content: "已切换到PSQI模式，您可以开始匹兹堡睡眠质量问卷评估。"
+          }
+        };
+        this.screenMsg(msg);
       } else {
         // 根据不同的按钮类型执行不同的操作
         switch (btnType) {
-          case 'PSQI':
-            // 发送PSQI相关消息
-            this.sendToolMessage('PSQI评估表');
+          case 'ordinary':
+            // 切换到普通对话模式
+            this.showCBTITools = false;
+            this.showPSQIOptions = false;
+            // 添加提示消息，告知用户已切换到普通对话模式
+            var _msg2 = {
+              type: "user",
+              msg: {
+                id: this.generateRandomID(),
+                time: this.getCurrentTime(),
+                type: "text",
+                userinfo: {
+                  uid: 1,
+                  username: "管家",
+                  face: "/static/img/q.png"
+                },
+                content: "已切换到普通对话模式，您可以直接提问任何问题。"
+              }
+            };
+            this.screenMsg(_msg2);
             break;
           case 'negative':
             // 发送负性思维记录表相关消息
-            this.sendToolMessage('负性思维记录表');
+            this.sendToolMessage('record');
             break;
           case 'cognitive':
             // 发送认知重构建议相关消息
-            this.sendToolMessage('获取认知重构建议');
-            break;
-          case 'sleep':
-            // 发送睡眠限制计划相关消息
-            this.sendToolMessage('获取睡眠限制计划');
-            break;
-          case 'stimulus':
-            // 发送刺激控制计划相关消息
-            this.sendToolMessage('获取刺激控制计划');
+            this.sendToolMessage('restructure');
             break;
         }
       }
@@ -1170,14 +1440,402 @@ var _default = {
     // 退出CBTI工具栏
     exitCBTITools: function exitCBTITools() {
       this.showCBTITools = false;
-      this.activeToolBtn = ''; // 清空选中状态
+      this.activeToolBtn = 'ordinary'; // 设置为普通对话模式
+
+      // 添加提示消息，告知用户已切换回普通对话模式
+      var msg = {
+        type: "user",
+        msg: {
+          id: this.generateRandomID(),
+          time: this.getCurrentTime(),
+          type: "text",
+          userinfo: {
+            uid: 1,
+            username: "管家",
+            face: "/static/img/q.png"
+          },
+          content: "已退出CBTI工具，切换回普通对话模式。"
+        }
+      };
+      this.screenMsg(msg);
     },
     // 发送工具相关消息
     sendToolMessage: function sendToolMessage(toolType) {
+      // 设置当前活跃的工具按钮
+      this.activeToolBtn = toolType;
+
       // 构建消息内容
-      var content = "\u8BF7\u63D0\u4F9B".concat(toolType);
+      var content = "".concat(toolType);
       // 发送消息
       this.sendMsg(content);
+    },
+    // PSQI问卷相关方法
+    // 开始PSQI问卷
+    startPSQIQuestionnaire: function startPSQIQuestionnaire() {
+      var _this12 = this;
+      // 设置开始按钮为激活状态
+      this.activePSQIOption = 'start';
+
+      // 获取用户ID，如果没有则使用默认值
+      var userId = this.userInfo.userId || 'default_user';
+
+      // 重置PSQI状态
+      this.resetPSQIState();
+
+      // 设置问卷进行中状态
+      this.psqiInProgress = true;
+
+      // 确保PSQI按钮被激活
+      this.activeToolBtn = 'PSQI';
+
+      // 发送开始问卷的系统消息
+      var startMsg = {
+        type: "user",
+        msg: {
+          id: this.generateRandomID(),
+          time: this.getCurrentTime(),
+          type: "text",
+          userinfo: {
+            uid: 1,
+            username: "管家",
+            face: "/static/img/q.png"
+          },
+          content: "开始匹兹堡睡眠质量问卷(PSQI)评估，请回答以下问题："
+        }
+      };
+      this.screenMsg(startMsg);
+
+      // 调用开始问卷接口
+      uni.request({
+        url: "https://isleepagent.com:444/psqi/start_questionnaire",
+        method: "POST",
+        data: {
+          user_id: userId
+        },
+        header: {
+          "Content-Type": "application/json"
+        },
+        success: function success(res) {
+          if (res.data.status === "success") {
+            // 保存用户ID和当前问题
+            _this12.psqiUserId = res.data.user_id;
+            _this12.psqiCurrentQuestion = res.data.question;
+
+            // 初始化已完成问题列表
+            _this12.psqiCompletedQuestions = [];
+
+            // 检查是否是第5-18个问题，如果是则显示选项按钮
+            if (_this12.psqiCurrentQuestion && _this12.psqiCurrentQuestion.id >= 5 && _this12.psqiCurrentQuestion.id <= 18) {
+              _this12.showPSQIOptions = true;
+            } else {
+              _this12.showPSQIOptions = false;
+            }
+
+            // 显示第一个问题
+            _this12.showPSQIQuestion(res.data.question);
+          } else {
+            // 显示错误消息
+            _this12.showErrorMessage("问卷启动失败，请稍后再试");
+            _this12.resetPSQIState(); // 重置问卷状态
+          }
+        },
+
+        fail: function fail(err) {
+          console.error("问卷请求失败:", err);
+          _this12.showErrorMessage("问卷请求失败，请稍后再试");
+          _this12.resetPSQIState(); // 重置问卷状态
+        }
+      });
+    },
+    // 显示PSQI问题
+    showPSQIQuestion: function showPSQIQuestion(question) {
+      if (!question) return;
+
+      // 构建问题消息
+      var questionText = question.question;
+
+      // 如果有选项，添加到问题中
+      if (question.type === "choice" && question.options && question.options.length > 0) {
+        questionText += "\n选项: " + question.options.join("、");
+      }
+      var questionMsg = {
+        type: "user",
+        msg: {
+          id: this.generateRandomID(),
+          time: this.getCurrentTime(),
+          type: "text",
+          userinfo: {
+            uid: 1,
+            username: "管家",
+            face: "/static/img/q.png"
+          },
+          content: questionText
+        }
+      };
+      this.screenMsg(questionMsg);
+    },
+    // 回答PSQI问题
+    answerPSQIQuestion: function answerPSQIQuestion(answer) {
+      var _this13 = this;
+      if (!this.psqiUserId || !this.psqiInProgress) return;
+
+      // 检查当前问题是否存在
+      if (!this.psqiCurrentQuestion) {
+        this.showErrorMessage("当前没有活跃的问题，请重新开始问卷");
+        return;
+      }
+
+      // 获取当前问题ID
+      var currentQuestionId = this.psqiCurrentQuestion.id;
+
+      // 检查问题是否按顺序回答
+      if (currentQuestionId > 1) {
+        // 检查前一个问题是否已完成
+        var previousQuestionId = currentQuestionId - 1;
+        if (!this.psqiCompletedQuestions.includes(previousQuestionId)) {
+          this.showErrorMessage("\u8BF7\u5148\u5B8C\u6210\u95EE\u9898 ".concat(previousQuestionId));
+          return;
+        }
+      }
+
+      // 调用回答问题接口
+      uni.request({
+        url: "https://isleepagent.com:444/psqi/answer_question",
+        method: "POST",
+        data: {
+          user_id: this.psqiUserId,
+          answer: answer
+        },
+        header: {
+          "Content-Type": "application/json"
+        },
+        success: function success(res) {
+          if (res.data.status === "success") {
+            // 将当前问题ID添加到已完成问题列表
+            if (!_this13.psqiCompletedQuestions.includes(currentQuestionId)) {
+              _this13.psqiCompletedQuestions.push(currentQuestionId);
+            }
+
+            // 更新当前问题
+            _this13.psqiCurrentQuestion = res.data.question;
+
+            // 重置选项激活状态
+            _this13.activePSQIOption = '';
+
+            // 检查是否是第5-18个问题，如果是则显示选项按钮
+            if (_this13.psqiCurrentQuestion && _this13.psqiCurrentQuestion.id >= 5 && _this13.psqiCurrentQuestion.id <= 18) {
+              _this13.showPSQIOptions = true;
+            } else {
+              _this13.showPSQIOptions = false;
+            }
+
+            // 显示下一个问题
+            _this13.showPSQIQuestion(res.data.question);
+          } else if (res.data.status === "completed") {
+            // 问卷完成，显示分析结果
+            _this13.showPSQIAnalysis(res.data.analysis);
+            // 重置问卷状态
+            _this13.resetPSQIState();
+          } else {
+            // 显示错误消息
+            _this13.showErrorMessage("回答处理失败，请稍后再试");
+            // 重置问卷状态
+            _this13.resetPSQIState();
+          }
+        },
+        fail: function fail(err) {
+          console.error("回答请求失败:", err);
+          _this13.showErrorMessage("回答请求失败，请稍后再试");
+          // 重置问卷状态
+          _this13.resetPSQIState();
+        }
+      });
+    },
+    // 选择PSQI问卷选项
+    selectPSQIOption: function selectPSQIOption(option) {
+      // 设置当前激活的选项
+      this.activePSQIOption = option;
+
+      // 将选项作为回答发送
+      this.answerPSQIQuestion(option);
+    },
+    // 退出PSQI问卷
+    exitPSQIQuestionnaire: function exitPSQIQuestionnaire() {
+      var _this14 = this;
+      // 设置退出按钮为激活状态
+      this.activePSQIOption = 'exit';
+
+      // 发送退出消息
+      var exitMsg = {
+        type: "user",
+        msg: {
+          id: this.generateRandomID(),
+          time: this.getCurrentTime(),
+          type: "text",
+          userinfo: {
+            uid: 1,
+            username: "管家",
+            face: "/static/img/q.png"
+          },
+          content: "已退出PSQI问卷，切换到普通对话模式。"
+        }
+      };
+      this.screenMsg(exitMsg);
+
+      // 短暂延迟以便用户看到按钮激活状态
+      setTimeout(function () {
+        // 重置PSQI状态
+        _this14.resetPSQIState();
+
+        // 切换到普通对话模式
+        _this14.activeToolBtn = 'ordinary';
+        _this14.showPSQIOptions = false;
+
+        // 添加提示消息，告知用户已切换回普通对话模式
+        var msg = {
+          type: "user",
+          msg: {
+            id: _this14.generateRandomID(),
+            time: _this14.getCurrentTime(),
+            type: "text",
+            userinfo: {
+              uid: 1,
+              username: "管家",
+              face: "/static/img/q.png"
+            },
+            content: "已切换到普通对话模式，您可以直接提问任何问题。"
+          }
+        };
+        _this14.screenMsg(msg);
+      }, 300);
+    },
+    // 重置PSQI问卷
+    resetPSQIQuestionnaire: function resetPSQIQuestionnaire() {
+      var _this15 = this;
+      // 设置重置按钮为激活状态
+      this.activePSQIOption = 'reset';
+
+      // 获取用户ID，如果没有则使用默认值
+      var userId = this.userInfo.userId || 'default_user';
+
+      // 调用重置问卷接口
+      uni.request({
+        url: "https://isleepagent.com:444/psqi/reset_questionnaire",
+        method: "POST",
+        data: {
+          user_id: userId
+        },
+        header: {
+          "Content-Type": "application/json"
+        },
+        success: function success(res) {
+          if (res.data.status === "success") {
+            // 重置PSQI状态
+            _this15.resetPSQIState();
+
+            // 发送重置成功消息
+            var resetMsg = {
+              type: "user",
+              msg: {
+                id: _this15.generateRandomID(),
+                time: _this15.getCurrentTime(),
+                type: "text",
+                userinfo: {
+                  uid: 1,
+                  username: "管家",
+                  face: "/static/img/q.png"
+                },
+                content: "PSQI问卷已重置，您可以重新开始问卷。"
+              }
+            };
+            _this15.screenMsg(resetMsg);
+
+            // 重新开始问卷
+            _this15.startPSQIQuestionnaire();
+          } else {
+            // 显示错误消息
+            _this15.showErrorMessage("问卷重置失败，请稍后再试");
+            _this15.activePSQIOption = ''; // 重置按钮状态
+          }
+        },
+
+        fail: function fail(err) {
+          console.error("重置问卷请求失败:", err);
+          _this15.showErrorMessage("重置问卷请求失败，请稍后再试");
+          _this15.activePSQIOption = ''; // 重置按钮状态
+        }
+      });
+    },
+    // 重置PSQI状态
+    resetPSQIState: function resetPSQIState() {
+      this.psqiInProgress = false;
+      this.psqiUserId = null;
+      this.psqiCurrentQuestion = null;
+      this.showPSQIOptions = false;
+      this.activePSQIOption = '';
+      this.psqiCompletedQuestions = [];
+    },
+    // 显示PSQI分析结果
+    showPSQIAnalysis: function showPSQIAnalysis(analysis) {
+      var _this16 = this;
+      if (!analysis) return;
+
+      // 构建分析结果消息
+      var analysisMsg = {
+        type: "user",
+        msg: {
+          id: this.generateRandomID(),
+          time: this.getCurrentTime(),
+          type: "text",
+          userinfo: {
+            uid: 1,
+            username: "管家",
+            face: "/static/img/q.png"
+          },
+          content: "匹兹堡睡眠质量问卷(PSQI)评估结果:\n\n" + analysis
+        }
+      };
+      this.screenMsg(analysisMsg);
+
+      // 重置PSQI状态
+      this.resetPSQIState();
+
+      // 发送完成消息
+      var completeMsg = {
+        type: "user",
+        msg: {
+          id: this.generateRandomID(),
+          time: this.getCurrentTime(),
+          type: "text",
+          userinfo: {
+            uid: 1,
+            username: "管家",
+            face: "/static/img/q.png"
+          },
+          content: "PSQI评估已完成，如果您有任何问题，请随时咨询。"
+        }
+      };
+      setTimeout(function () {
+        _this16.screenMsg(completeMsg);
+      }, 1000); // 延迟1秒显示完成消息
+    },
+    // 显示错误消息
+    showErrorMessage: function showErrorMessage(message) {
+      var errorMsg = {
+        type: "user",
+        msg: {
+          id: this.generateRandomID(),
+          time: this.getCurrentTime(),
+          type: "text",
+          userinfo: {
+            uid: 1,
+            username: "管家",
+            face: "/static/img/q.png"
+          },
+          content: message
+        }
+      };
+      this.screenMsg(errorMsg);
     }
   }
 };
@@ -1188,7 +1846,7 @@ exports.default = _default;
 
 /***/ 173:
 /*!********************************************************************************************************************************************!*\
-  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/pages/tabbar/tabbar-2/tabbar-2.vue?vue&type=style&index=0&id=23ec5197&lang=scss&scoped=true& ***!
+  !*** D:/yiqy/HBuilderProjects/睡眠app_gmx_0524/pages/tabbar/tabbar-2/tabbar-2.vue?vue&type=style&index=0&id=23ec5197&lang=scss&scoped=true& ***!
   \********************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1204,7 +1862,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ 174:
 /*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--8-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--8-oneOf-1-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--8-oneOf-1-2!./node_modules/postcss-loader/src??ref--8-oneOf-1-3!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/sass-loader/dist/cjs.js??ref--8-oneOf-1-4!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--8-oneOf-1-5!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/yiqy/HBuilderProjects/睡眠app_gmx_0515/pages/tabbar/tabbar-2/tabbar-2.vue?vue&type=style&index=0&id=23ec5197&lang=scss&scoped=true& ***!
+  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--8-oneOf-1-0!./node_modules/css-loader/dist/cjs.js??ref--8-oneOf-1-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--8-oneOf-1-2!./node_modules/postcss-loader/src??ref--8-oneOf-1-3!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/sass-loader/dist/cjs.js??ref--8-oneOf-1-4!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--8-oneOf-1-5!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!D:/yiqy/HBuilderProjects/睡眠app_gmx_0524/pages/tabbar/tabbar-2/tabbar-2.vue?vue&type=style&index=0&id=23ec5197&lang=scss&scoped=true& ***!
   \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {

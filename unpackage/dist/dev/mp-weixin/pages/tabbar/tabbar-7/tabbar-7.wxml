@@ -1,0 +1,1 @@
+<view class="scan-container data-v-e4f09192"><view data-event-opts="{{[['tap',[['scanQRCode',['$event']]]]]}}" class="scan-btn data-v-e4f09192" bindtap="__e"><image style="width:100rpx;height:100rpx;" src="/static/img/tabbar/history.png" class="data-v-e4f09192"></image><text style="display:block;margin-top:20rpx;" class="data-v-e4f09192">扫一扫</text></view></view>
