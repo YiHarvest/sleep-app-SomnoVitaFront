@@ -1,0 +1,154 @@
+<template>
+	<view class="content">
+		<div style='text-align: center;font-weight:700;font-size:24px;'>SomnoVita助眠带</div>
+		<div style='text-align: center;font-weight:700;font-size:24px;'>产品说明书</div>
+		<div style='margin:40upx 0;font-weight:700;font-size:18px'>
+			产品概述：
+		</div>
+		<div style='margin-top:10upx;'>
+			SomnoVita助眠带是一款创新的智能睡眠辅助设备，旨在为用户提供高质量的睡眠体验。结合先进的睡眠监测技术和基于失眠认知行为疗法的睡眠改善建议，SomnoVita帮助用户优化睡眠质量，提升身体与心理的整体健康。
+		</div>
+		<div style='margin:40upx 0 ;font-weight:700;font-size:18px'>
+			功能特点：
+		</div>
+		<div style='margin-top:10upx;'>
+			1.智能睡眠监测 ：
+		</div>
+		<div style='margin-top:10upx;'>
+			- 实时监测用户的睡眠周期，包括浅睡眠、深睡眠和REM睡眠状态，以及上床时间，入睡时间，起床时间，打鼾，呼吸暂停，体动等睡眠行为。
+		</div>
+		<div style='margin-top:10upx;'>
+			- 分析睡眠质量，按天，星期和月份生成详细的睡眠报告。
+		</div>
+		<div style='margin-top:10upx;'>
+			2.个性化调节 ：
+		</div>
+		<div style='margin-top:10upx;'>
+		 - 提供个性化的放松音乐和自然音效，帮助用户快速入睡。
+		</div>
+		<div style='margin-top:10upx;'>
+			-根据用户反馈，结合睡眠分析报告，用户自行调整睡眠策略。
+		</div>
+		<div style='margin-top:10upx;'>
+			3.应用兼容 ：
+		</div>
+		<div style='margin-top:10upx;'>
+		 - 提供配套的手机应用(微信小程序“智眠优护”)用户可以查看睡眠数据、填写睡眠日志和睡眠问卷调查并调整睡眠行为。
+		</div>
+		
+		<div style='margin:40upx 0 ;font-weight:700;font-size:18px'>
+			使用说明:
+		</div>
+		<div style='margin-top:10upx;'>
+			1.下载应用 ：
+		</div>
+		<div style='margin-top:10upx;'>
+			-在手机里下载微信小程序“智眠优护"，用手机号登录。
+		</div>
+		<div style='margin-top:10upx;'>
+			2.设备设置 ：
+		</div>
+		<div style='margin-top:10upx;'>
+		 - 把睡眠助眠带通上电，扫描上面二维码，系统会自动完成配对。
+		</div>
+		<div style='margin-top:10upx;'>
+		 - 跟随应用的指引完成初始设定，"包括用户信息完成简单的问卷(可以稍后进行)
+		</div>
+		<div style='margin-top:10upx;'>
+			3.放置设备 ：
+		</div>
+		<div style='margin-top:10upx;'>
+		 - 将 SomnoVita睡眠助眠带套上枕芯或直接放于床上睡眠位置(背部)，在确保助眠带朝上(可看到二维码)。
+		</div>
+		
+		<div style='margin:40upx 0 ;font-weight:700;font-size:18px'>
+			日常使用:
+		</div>
+		<div style='margin-top:10upx;'>
+			1.入睡前准备:
+		</div>
+		<div style='margin-top:10upx;'>
+			- 打开微信小程序应用(优眠智护)，选择放松音乐或白噪音帮助入睡。
+		</div>
+		<div style='margin-top:10upx;'>
+			- 如果需要，填写睡眠日志。
+		</div>
+		<div style='margin-top:10upx;'>
+			2.监测及反馈 ：
+		</div>
+		<div style='margin-top:10upx;'>
+		 - 在睡眠过程中，SomnoVita会自动监测你的睡眠状态，用户可在第二天早上(9点以后)查看睡眠分析结果。
+		</div>
+		<div style='margin-top:10upx;'>
+		 - 根据反馈调整睡眠习惯，遵循 SomnoVita提供的睡眠行为建议。
+		</div>
+		
+		<div style='margin:40upx 0 ;font-weight:700;font-size:18px'>
+			注意事项:
+		</div>
+		<div style='margin-top:10upx;'>
+		  - 确保设备周围的环境适宜，避免过高温度或潮湿。
+		</div>
+		<div style='margin-top:10upx;'>
+			- 本产品为辅助睡眠设备，仅供参考，不能替代专业医疗建议。
+		</div>
+		<div style='margin-top:10upx;'>
+			- 如睡眠问题持续，请咨询专业医疗人员。
+		</div>
+		<div style='margin-top:10upx;'>
+			- 请勿将设备暴露于直接阳光或极端温度下
+		</div>
+		
+		<div style='margin:40upx 0 ;font-weight:700;font-size:18px'>
+			常见问题解答:
+		</div>
+		<div style='margin-top:10upx;'>
+		  1.SomnoVita是否适合每个人使用?
+		</div>
+		<div style='margin-top:10upx;'>
+			- SomnoVita设计为适合大部分人群，特别是有轻度到中度睡眠问题的人。如果您有严重的睡眠障碍，建议咨询医生。
+		</div>
+		<div style='margin-top:10upx;'>
+			2.使用 SomnoVita需要多长时间才能见效?
+		</div>
+		<div style='margin-top:10upx;'>
+			- 每个用户的体验可能不同，通常在使用几周后用户会感受到显著的睡眠改善。
+		</div>
+		<div style='margin-top:10upx;'>
+			3.如果我的设备出现故障，应该怎么办?
+		</div>
+		<div style='margin-top:10upx;'>
+			- 请联系 SomnoVita的客户服务团队或参考保修条款。
+		</div>
+		<div style='margin-top:10upx;'>
+			- 客户支持如有任何疑问或需要帮助，请致电客户服务热线:181 5989 2927或访问微信小程序“优眠智护“获取相关信息。
+		</div>
+		<div style='margin-top:10upx;'>
+			-- 感谢选择 SomnoVita助眠带产品!我们祝愿您拥有健康的睡眠品质与美好的生活体验 --
+		</div>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				title: 'Hello'
+			}
+		},
+		onLoad() {
+
+		},
+		methods: {
+
+		}
+	}
+</script>
+
+<style>
+	.content {
+		height: 400upx;
+		margin-top: 30upx;
+		padding:0upx 20upx;
+	}
+</style>

@@ -1,0 +1,11 @@
+
+.content.data-v-73730135 {
+   background-image:url('https://javaimg-1316092519.cos.ap-nanjing.myqcloud.com/6a646535f93bd93d071caecab834e4bc.png');
+  background-size: 100% 100%;
+  width: 750rpx;
+  color: #fff;
+  padding: 30rpx;
+  min-height: 98%;
+  box-sizing: border-box;
+}
+

@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "报告",
+  "usingComponents": {
+    "u-icon": "/components/uview-ui/components/u-icon/u-icon",
+    "uni-datetime-picker": "/uni_modules/uni-datetime-picker/components/uni-datetime-picker/uni-datetime-picker",
+    "u-button": "/components/uview-ui/components/u-button/u-button",
+    "u-popup": "/components/uview-ui/components/u-popup/u-popup",
+    "echarts1": "/pages/tabbar/tabbar-4/echarts/echarts1",
+    "echarts3": "/pages/tabbar/tabbar-4/echarts/echarts3",
+    "echarts4": "/pages/tabbar/tabbar-4/echarts/echarts4",
+    "echarts5": "/pages/tabbar/tabbar-4/echarts/echarts5",
+    "echarts6": "/pages/tabbar/tabbar-4/echarts/echarts6"
+  }
+}
